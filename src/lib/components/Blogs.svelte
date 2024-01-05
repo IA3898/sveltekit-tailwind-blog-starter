@@ -1,26 +1,37 @@
+<script context="module">
+    export async function load({ url }) {
+        // Extract query parameter from the URL
+        const filter = url.searchParams.get('query');
+        return { props: { initialFilter: filter } };
+    }
+</script>
+
 <script>
-	import Tag from '$lib/components/Tag.svelte';
-	import Title from '$lib/components/Title.svelte';
-	import Author from '$lib/components/Author.svelte';
-	import SearchBox from '$lib/components/SearchBox.svelte';
-	import { page } from '$app/stores';
-	import fuzzySearch from '$utils/search.js';
+    import Tag from '$lib/components/Tag.svelte';
+    import Title from '$lib/components/Title.svelte';
+    import Author from '$lib/components/Author.svelte';
+    import SearchBox from '$lib/components/SearchBox.svelte';
+    import fuzzySearch from '$utils/search.js';
 
-	export let title = '';
-	export let subtitle = '';
-	export let posts = [];
-	export let tags = [];
-	export let more = true;
-	export let search = true;
-	export let h2 = false;
-	export let count = 0;
+    export let title = '';
+    export let subtitle = '';
+    export let posts = [];
+    export let tags = [];
+    export let more = true;
+    export let search = true;
+    export let h2 = false;
+    export let count = 0;
+    export let initialFilter = '';
 
-	if (count) {
-		posts = posts.slice(0, count);
-	}
+    if (count) {
+        posts = posts.slice(0, count);
+    }
 
-	$: filter = $page.url.searchParams.get('query');
-	$: currentPosts = filter ? fuzzySearch(posts, filter) : posts;
+    let filter = initialFilter;
+    let currentPosts;
+
+    $: filter = initialFilter;
+    $: currentPosts = filter ? fuzzySearch(posts, filter) : posts;
 </script>
 
 <div class="divide-y divide-gray-200 dark:divide-gray-700">

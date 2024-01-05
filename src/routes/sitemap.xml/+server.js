@@ -3,7 +3,7 @@ import { getEntries } from '$utils/entries.js';
 
 export const prerender = true;
 
-const trimSlash = (str) => str.replace(/^\/|\/$/g, '');
+const trimSlash = (str) => str.replace(/^\/|\/$/g, '');  // <loc>${config.siteUrl}/${trimSlash(page.href)}</loc>
 
 export async function GET() {
 	const pages = navLinks;
@@ -36,7 +36,7 @@ const sitemap = (posts, pages) => `<?xml version="1.0" encoding="UTF-8" ?>
 			.map(
 				(page) => `
     <url>
-      <loc>${config.siteUrl}/${trimSlash(page.href)}</loc>
+      
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
     </url>

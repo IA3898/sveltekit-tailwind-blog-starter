@@ -12,12 +12,10 @@
 	<h1
 		class="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
 	>
-		Welcome to Pied Piper!
+		Welcome to Coinbai!
 	</h1>
 	<p class="text-xl prose-xl text-gray-800 dark:text-gray-400">
-		This is Pied Piper's (un)official blog. Amoung many other things, Pied Piper offers a middle-out
-		compression solution making data storage problems smaller. To get the updates, please check this
-		site often, or subscribe to our RSS feed.
+		This is Coinbai's dedicated platform for exploring the fascinating world of cryptocurrencies. Coinbai stands out in the digital finance landscape by offering a unique blend of insightful financial analysis and captivating crypto memes. To stay informed and entertained with the latest in cryptocurrency trends and insights, make sure to visit our site regularly, or subscribe to our RSS feed.
 	</p>
 </div>
 

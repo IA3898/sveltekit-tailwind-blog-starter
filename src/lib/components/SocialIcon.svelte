@@ -1,10 +1,11 @@
 <script>
 	import IconMail from '$lib/icons/mail.svelte';
-	import IconGithub from '$lib/icons/github.svelte';
+	import IconInsta from '$lib/icons/instagram.svelte';
 	import IconFacebook from '$lib/icons/facebook.svelte';
 	import IconYoutube from '$lib/icons/youtube.svelte';
 	import IconLinkedin from '$lib/icons/linkedin.svelte';
 	import IconTwitter from '$lib/icons/twitter.svelte';
+	
 
 	export let url = '';
 	export let icon = '';
@@ -15,7 +16,7 @@
 
 	const options = [
 		{ caption: 'mail', component: IconMail },
-		{ caption: 'github', component: IconGithub },
+		{ caption: 'instagram', component: IconInsta },
 		{ caption: 'facebook', component: IconFacebook },
 		{ caption: 'youtube', component: IconYoutube },
 		{ caption: 'linkedin', component: IconLinkedin },

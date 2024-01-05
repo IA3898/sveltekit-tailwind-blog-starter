@@ -1,23 +1,23 @@
 export const config = {
-	title: 'Pied Piper (un)official blog',
-	author: 'Ahmad Kiarostami',
-	headerTitle: 'Pied Piper',
-	description: 'Pied Piper (un)official blog, created with Sveltekit and Tailwind.css',
+	title: 'Coinbai: Crypto Memes & Finance Hub',
+	author: 'Coinbai',
+	headerTitle: 'Coinbai',
+	description: 'Coinbai is your go-to source for cryptocurrency memes and financial insights, powered by Sveltekit and Tailwind.css',
 	language: 'en-us',
 	theme: 'dark', // system, dark or light
-	domain: 'http://www.piedpiper.com/',
-	siteUrl: 'https://pied-piper-blog.netlify.app',
-	siteRepo: 'https://github.com/akiarostami/sveltekit-tailwind-blog-starter',
-	siteLogo: '/icon-512.png',
-	// image: '/img/avatar.png',
-	email: 'info@piedpiper.com',
-	github: 'https://github.com/piedpiper',
-	twitter: 'https://twitter.com/piedpiperplc',
-	facebook: 'https://www.facebook.com/piedpipersv',
-	youtube: 'https://www.youtube.com/watch?v=p3RwX06wcBs',
-	linkedin: 'https://www.linkedin.com/company/pied-piper-plc/',
+	domain: 'http://www.coinbai.com/', // Replace with Coinbai's actual domain
+	siteUrl: 'https://www.coinbai.com/', // Replace with Coinbai's actual site URL
+//	siteRepo: 'https://github.com/coinbai/sveltekit-tailwind-blog-starter', // Replace with Coinbai's actual repository URL
+	siteLogo: '/clogo1.svg', // Update if Coinbai has a different logo
+	email: '', // Replace with Coinbai's contact email
+	instagram: 'https://instagram.com/coinbai1', // Replace with Coinbai's GitHub, if available
+	twitter: 'https://twitter.com/Coinbai_com',
+	facebook: '', // Remove if Coinbai doesn't have a, Facebook page
+	youtube: '', // Add Coinbai's YouTube link if available
+	linkedin: '', // Add Coinbai's LinkedIn link if available
 	locale: 'en-US',
-	primaryColor: '#06a261',
+	primaryColor: '#0d6efd', // Blue color for technology and trust
+	
 
 	// supports buttondown, convertkit, emailoctopus, klaviyo, mailchimp, revue
 	// use false or null to disable newsletter
@@ -30,15 +30,15 @@ export const config = {
 export const user = {
 	name: 'admin',
 	// avatar value can be removed for image
-	avatar: '/logo.png',
+	avatar: '/icon-16.png',
 	// twitter value can be removed for no link to twitter
-	twitter: 'https://twitter.com/piedpiperplc'
+	twitter: 'https://twitter.com/Coinbai_com'
 };
 
 export const navLinks = [
-	{ href: '/about', title: 'About' },
+	{ href: '/about/', title: 'About' },
 	{ href: '/projects', title: 'Projects' },
-	{ href: '/blog', title: 'Blog' }
+	{ href: '/blog/', title: 'Blog' }
 ];
 
 export const openGraph = {

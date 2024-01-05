@@ -25,18 +25,13 @@
 			</div>
 		</div>
 		<div class="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-			Pied Piper (PP) was an American tech company based in Silicon Valley, California. The company
-			was formed in 2014 by Richard Hendricks as a company to develop Richard's algorithm that he'd
-			created. The company is best known to for achieving the highest Weissman score in history
-			during their presentation at TechCrunch Disrupt. The company's first appearance was in the
-			Season One episode Minimum Viable Product and has since served as the primary company for the
-			series.
+			Coinbai is a dynamic platform in the cryptocurrency sector, renowned for blending finance with the engaging world of memes. Established as a unique content hub for crypto enthusiasts, Coinbai offers a fresh perspective on the complex and ever-evolving landscape of digital currencies. It serves as a vital resource for both informative and entertaining content, making it a go-to destination for those looking to stay updated with the latest trends and insights in the world of cryptocurrency.
 		</div>
 	</div>
 	<div class="space-y-2 py-8 md:space-y-5">
-		<Title h2 title="Contributors" />
-		<div class="grid xl:grid-cols-3 grid-cols-2 gap-4">
-			{#each authors as author}
+		<!-- <Title h2 title="Contributors" />
+		<div class="grid xl:grid-cols-3 grid-cols-2 gap-4"> -->
+			<!-- {#each authors as author}
 				<div class="lg:flex flex-row space-x-3">
 					<div class="grow-0 shrink-0 basis-auto w-full lg:w-1/3">
 						<img src={author.avatar} alt={author.name} class="w-full rounded-xl mb-4 lg:mb-0" />
@@ -52,7 +47,7 @@
 						</div>
 					</div>
 				</div>
-			{/each}
-		</div>
+			{/each} -->
+		<!-- </div> -->
 	</div>
 </div>

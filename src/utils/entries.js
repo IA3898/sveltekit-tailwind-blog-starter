@@ -3,9 +3,9 @@ import { slug } from 'github-slugger';
 import { config, user } from '$lib/config.js';
 
 // we require some server-side APIs to parse all metadata
-if (browser) {
-	throw new Error(`projects can only be imported server-side`);
-}
+// if (browser) {
+// 	throw new Error(`projects can only be imported server-side`);
+// }
 
 // we have to have separate functions for this because Vite only accepts literal strings for import.meta.glob
 const getPosts = () => {

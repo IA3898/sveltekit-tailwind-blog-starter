@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/akiarostami/sveltekit-tailwind-blog-starter"><img src="static/logo.png" alt="Sveltekit Tailwind Blog Starter" width="200"></a>
+  <a href="https://github.com/akiarostami/sveltekit-tailwind-blog-starter"> alt="Sveltekit Tailwind Blog Starter" width="200"></a>
   <br>
   Sveltekit Tailwind Blog Starter
   <br>

@@ -1,18 +1,36 @@
-import adapter from '@sveltejs/adapter-auto';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import adapter from '@sveltejs/adapter-node';
 import { mdsvex } from 'mdsvex';
-import mdsvexConfig from './mdsvex.config.js';
+import sveltePreprocess from 'svelte-preprocess';
 
-/** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', ...mdsvexConfig.extensions],
-	kit: {
-		adapter: adapter(),
+  // Add '.md' to the list of extensions
+  extensions: ['.svelte', '.md'],
 
-		// remove this if you're not using comment system
-		csp: { mode: 'auto' }
-	},
-	preprocess: [mdsvex(mdsvexConfig), vitePreprocess()]
+  // Configure the preprocessor to use mdsvex
+  preprocess: [
+    sveltePreprocess(),
+    mdsvex({
+      extension: '.md',
+      // Add any additional mdsvex configuration here
+    })
+  ],
+
+  kit: {
+    paths: {
+      relative: false,
+    },
+    adapter: adapter({
+      pages: 'build',
+      assets: 'build',
+      fallback: 'index.html',
+	    precompress: false
+
+      // Other adapter options...
+    }),
+    // Other kit options...
+  },
 };
 
 export default config;
+
+

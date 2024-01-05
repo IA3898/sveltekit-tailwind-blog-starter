@@ -1,6 +1,6 @@
 // used the following as a reference: https://geoffrich.net/posts/svelte-social-image/
 import satori from 'satori';
-import { Resvg } from '@resvg/resvg-js';
+
 import Saira from '$lib/fonts/Saira-ExtraBold.ttf';
 import OpenSans from '$lib/fonts/OpenSans-ExtraBold.ttf';
 import { html as toReactNode } from 'satori-html';
@@ -9,7 +9,7 @@ import { openGraph } from '$lib/config';
 
 const width = openGraph.width;
 const height = openGraph.height;
-
+export const prerender = false;
 /** @type {import('./$types').RequestHandler} */
 export const GET = async ({ url }) => {
 	const text = url.searchParams.get('text') ?? undefined;
