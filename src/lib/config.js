@@ -37,7 +37,6 @@ export const user = {
 
 export const navLinks = [
 	{ href: '/about/', title: 'About' },
-	{ href: '/projects', title: 'Projects' },
 	{ href: '/blog/', title: 'Blog' }
 ];
 
