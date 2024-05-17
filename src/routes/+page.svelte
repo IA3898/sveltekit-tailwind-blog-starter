@@ -18,7 +18,7 @@
             rating: 5.0,
             link: 'https://accounts.binance.com/register?ref=13732272',
             reviewLink: '#',
-            imgUrl: 'src/routes/binance.png'
+            imgUrl: 'img/binance.png'
         },
         {
             id: 2,
@@ -32,7 +32,7 @@
             rating: 4.8,
             link: 'https://crypto.com/app/nbzfay494y',
             reviewLink: '#',
-            imgUrl: 'src/routes/unnamed.png'
+            imgUrl: 'img/unnamed.png'
         },
         {
             id: 3,
@@ -46,7 +46,7 @@
             rating: 4.9,
             link: 'https://www.kucoin.com/r/rf/QBAMNB9A',
             reviewLink: '#',
-            imgUrl: 'src/routes/c1d.jpg'
+            imgUrl: 'img/c1d.jpg'
         }
     ];
 </script>
