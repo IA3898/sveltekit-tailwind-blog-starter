@@ -15,14 +15,14 @@
             expiration: '20/05/2024',
             used: 7847,
             remaining: 49,
-            rating: 5.0,
+            rating: "5.0",
             link: 'https://accounts.binance.com/register?ref=13732272',
             reviewLink: '#',
             imgUrl: 'img/binance.png'
         },
         {
             id: 2,
-            provider: 'CRYPTO.COM',
+            provider: 'CRYPTO',
             title: 'Get $25 Bonus',
             description: 'Sign Up with Crypto.com',
             details: 'Sign up to Crypto.com app using our referral link and get a $25 bonus. Start trading and investing in cryptocurrencies today!',
@@ -46,7 +46,7 @@
             rating: 4.9,
             link: 'https://www.kucoin.com/r/rf/QBAMNB9A',
             reviewLink: '#',
-            imgUrl: 'img/c1d.jpg'
+            imgUrl: 'img/c1d.png'
         }
     ];
 </script>
@@ -96,6 +96,7 @@
                 </div>
             </div>
             <div class="promo-rating">
+                <span class="ating-colo">Rating</span>
                 <span class="rating-value">{promo.rating}</span>
                 <a href={promo.link} class="get-deal-btn" target="_blank">GET DEAL</a>
                 <a href={promo.reviewLink} class="provider-coupons-link">See all Provider Coupons</a>
@@ -113,6 +114,14 @@
     height: 1px;
     background: var(--text-muted);
     opacity: 30;
+       
+  }
+
+  .ating-colo {
+
+    color: var(--text-primary);
+    opacity: 44;
+    
        
   }
     section {
