@@ -1,5 +1,4 @@
 import { browser } from '$app/environment';
-
 import { config } from '$lib/config';
 
 const isLocalStorageAvailable = () => {
@@ -12,6 +11,7 @@ const isLocalStorageAvailable = () => {
 		return false;
 	}
 };
+
 const isDarkMode = () => {
 	let darkMode = false;
 	if (browser) {

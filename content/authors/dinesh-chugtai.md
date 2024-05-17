@@ -1,6 +1,6 @@
 ---
 name: Coinbai
-avatar: /img/clogo.svg
+avatar: /img/newlogo.png
 occupation: 
 company: Coinbai
 email: coinbai.service@gmail.com

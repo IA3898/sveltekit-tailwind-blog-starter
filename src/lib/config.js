@@ -8,7 +8,7 @@ export const config = {
 	domain: 'http://www.coinbai.com/', // Replace with Coinbai's actual domain
 	siteUrl: 'https://www.coinbai.com/', // Replace with Coinbai's actual site URL
 //	siteRepo: 'https://github.com/coinbai/sveltekit-tailwind-blog-starter', // Replace with Coinbai's actual repository URL
-	siteLogo: '/clogo1.svg', // Update if Coinbai has a different logo
+	siteLogo: 'img/newlogo.png', // Update if Coinbai has a different logo
 	email: '', // Replace with Coinbai's contact email
 	instagram: 'https://instagram.com/coinbai1', // Replace with Coinbai's GitHub, if available
 	twitter: 'https://twitter.com/Coinbai_com',
@@ -30,7 +30,7 @@ export const config = {
 export const user = {
 	name: 'admin',
 	// avatar value can be removed for image
-	avatar: '/icon-16.png',
+	avatar: 'img/newlogo.png',
 	// twitter value can be removed for no link to twitter
 	twitter: 'https://twitter.com/Coinbai_com'
 };
