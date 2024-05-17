@@ -11,7 +11,7 @@
             provider: 'BINANCE',
             title: 'CLAIM $600 REWARD',
             description: 'Exclusive Binance Referral Code',
-            details: "Don't miss this limited-time deal that's only available for our readers. Use the Binance referral code 49316610 & receive up to $600 in rewards and bonuses!",
+            details: "Don't miss this limited-time deal that's only available for our readers. Use the Binance referral code 13732272 & receive up to $600 in rewards and bonuses!",
             expiration: '20/05/2024',
             used: 7847,
             remaining: 49,
