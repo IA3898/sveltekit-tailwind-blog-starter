@@ -71,7 +71,7 @@
 		If you have any questions or concerns about this Privacy Policy or how we handle your personal information, please contact us at:
 	</p>
 	<p>
-		<strong>[Your Company Name]</strong><br />
+		<strong>[Coinbai]</strong><br />
 		Email: <a href="mailto:[Your Email Address]" class="text-blue-500 underline">coinbaicontact@gmail.com</a><br />
 		
 	</p>

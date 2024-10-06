@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit';
 import registerEmail from '$lib/newsletter';
 
-export const prerender = true;
+export const prerender = false;
 
 export const POST = async ({ request }) => {
 	try {
