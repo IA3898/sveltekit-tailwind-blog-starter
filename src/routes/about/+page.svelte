@@ -29,25 +29,5 @@
 		</div>
 	</div>
 	<div class="space-y-2 py-8 md:space-y-5">
-		<!-- <Title h2 title="Contributors" />
-		<div class="grid xl:grid-cols-3 grid-cols-2 gap-4"> -->
-			<!-- {#each authors as author}
-				<div class="lg:flex flex-row space-x-3">
-					<div class="grow-0 shrink-0 basis-auto w-full lg:w-1/3">
-						<img src={author.avatar} alt={author.name} class="w-full rounded-xl mb-4 lg:mb-0" />
-					</div>
-					<div class="grow-0 shrink-0 basis-auto w-full lg:w-2/3">
-						<h5 class="text-lg font-bold">{author.name}</h5>
-						<p class="text-gray-500 mb-2">{author.occupation}</p>
-						<div class="flex">
-							<SocialIcon small icon="mail" url={`mailto:${author.email}`} />
-							<SocialIcon small icon="twitter" url={author.twitter} />
-							<SocialIcon small icon="linkedin" url={author.linkedin} />
-							<SocialIcon small icon="github" url={author.github} />
-						</div>
-					</div>
-				</div>
-			{/each} -->
-		<!-- </div> -->
 	</div>
 </div>

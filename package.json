@@ -43,6 +43,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-netlify": "^3.0.1"
+		"@sveltejs/adapter-netlify": "^3.0.1",
+		"nodemailer": "^6.9.15"
 	}
 }

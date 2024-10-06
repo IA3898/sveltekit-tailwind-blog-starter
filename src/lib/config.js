@@ -36,8 +36,10 @@ export const user = {
 };
 
 export const navLinks = [
+	{ href: '/money-making/', title: 'Beer Money Sites' },
 	{ href: '/about/', title: 'About' },
-	{ href: '/blog/', title: 'Blog' }
+	{ href: '/blog/', title: 'Blog' },
+	
 ];
 
 export const openGraph = {
@@ -55,7 +57,7 @@ export const analytics = {
 
 // supported providers: giscus, utterances
 export const comment = {
-	provider: 'giscus',
+	provider: '',
 	giscus: {
 		// Visit the link below, and follow the steps in the 'configuration' section
 		// https://giscus.app/

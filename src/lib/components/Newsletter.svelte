@@ -2,24 +2,37 @@
 	let email = '';
 	let error = false;
 	let submitted = false;
-
 	async function handleSubmit() {
-		let body = {
-			email
-		};
-		let result = await fetch('/api/newsletter', {
-			method: 'post',
-			body: JSON.stringify(body)
-		});
-		const registerEmailResponse = await result.json();
-		if (registerEmailResponse.status === 200) {
-			email = '';
-			error = false;
-			submitted = true;
-		} else {
-			error = true;
-		}
-	}
+    let body = { email };
+
+    try {
+        let result = await fetch('/api/newsletter', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json' // Add this line
+            },
+            body: JSON.stringify(body)
+        });
+
+        if (!result.ok) { // Check if response status is not in the 200-299 range
+            throw new Error('Network response was not ok');
+        }
+
+        const registerEmailResponse = await result.json();
+        
+        if (registerEmailResponse.status === 200) {
+            email = '';
+            error = false;
+            submitted = true;
+        } else {
+            error = true;
+        }
+    } catch (error) {
+        console.error('Error during fetch:', error); // Log error to console
+        error = true; // Handle fetch errors
+    }
+}
+
 </script>
 
 <div class="w-full text-gray-500 dark:text-gray-400 mb-2">

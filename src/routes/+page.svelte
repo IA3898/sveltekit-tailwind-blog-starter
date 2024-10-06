@@ -51,9 +51,9 @@
     ];
 </script>
 
-<div class="separator">
+
     <Head />
-</div>
+
 
 
 <div class="pt-12">
@@ -112,6 +112,7 @@
 .separator {
     border: 0;
     height: 1px;
+    width: 1000px;
     background: var(--text-muted);
     opacity: 30;
        

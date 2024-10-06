@@ -16,12 +16,14 @@
 			<SocialIcon icon="linkedin" url={config.linkedin} />
 			<SocialIcon icon="twitter" url={config.twitter} />
 		</div>
-		{#if config.newsletter.provider}
+		{#if config.newsletter}
 			<Newsletter />
 		{/if}
 		<div class="mb-4 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
-			<a href="/">{config.title}</a> &nbsp; • &nbsp; © {year}
-			{config.author} &nbsp; • &nbsp; 
+			<a href="/">{config.title}</a> &nbsp; • &nbsp; © {year} {config.author} &nbsp; • &nbsp;
+			<a href="/contact">Contact Us</a> &nbsp; • &nbsp;
+			<a href="/privacy">Privacy Policy</a> &nbsp; • &nbsp;
+			<a href="/terms">Terms of Service</a>
 		</div>
 	</div>
 </footer>
