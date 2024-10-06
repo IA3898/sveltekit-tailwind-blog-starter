@@ -109,14 +109,7 @@
 
 <style>
 
-.separator {
-    border: 0;
-    height: 1px;
-    width: 1000px;
-    background: var(--text-muted);
-    opacity: 30;
-       
-  }
+
 
   .ating-colo {
 

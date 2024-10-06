@@ -75,11 +75,12 @@
 
 </script>
 
+
 <!-- Page Container -->
 <div class="max-w-7xl mx-auto py-10 px-4">
     <!-- Heading -->
-    <h1 class="text-4xl font-bold text-center mb-8">Beermoney Sites</h1>
-    <h1 class="text font-bold text-center mb-8">Updated: 10/06/2024</h1>
+    <h1 class="text-4xl font-bold text-center mb-8 dark:text-gray-200">Beermoney Sites</h1>
+    <h1 class="text font-bold text-center mb-8 dark:text-gray-200">Updated: 10/06/2024</h1>
 
     <!-- Category Cards -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -96,7 +97,13 @@
                 <ul class="space-y-2">
                     {#each category.sites as site, index}
                         <li class="flex items-center">
-                            <img src={site.favicon} alt="Site Favicon" class="h-4 w-4 mr-2" /> <!-- Favicon -->
+                            <img 
+                            src={site.favicon ? new URL(site.favicon).toString() : "/icons/missingFav.png"} 
+                            alt="/icons/missingFav.png" 
+                            class="h-4 w-4 mr-2" 
+                            onError={(e) => { e.target.src = "/icons/missingFav.png"; e.target.onerror = null; }} 
+                          />
+
                             <span class="font-semibold">{index + 1}. </span>
                             <a href={site.link} target="_blank" class="text-blue-500 hover:underline dark:text-blue-400">
                                 {site.name}
