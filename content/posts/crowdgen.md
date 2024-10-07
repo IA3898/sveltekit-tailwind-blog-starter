@@ -1,6 +1,6 @@
 ---
 title: Crowdgen by Appen - A Comprehensive Review
-date: '2024-12-26'
+date: '2024-05-26'
 draft: false
 summary: "Appen has introduced a new platform called Crowdgen, replacing Appen Connect. This review delves into its features, payment options, and work flexibility, offering insights for freelancers and remote workers worldwide."
 tags:

@@ -6,31 +6,48 @@
     let submitted = false;
 
     async function handleSubmit() {
+        // Check for empty fields
         if (!name || !email || !message) {
             error = true;
             return;
         }
         error = false;
 
+        // Define the body object
         const body = { name, email, message };
 
-        const response = await fetch('/api/contact', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(body)
-        });
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(body)
+            });
 
-        if (response.ok) {
-            submitted = true;
-            name = '';
-            email = '';
-            message = '';
-        } else {
-            const errorData = await response.json();
-            console.error("Error sending message:", errorData.error); // Log error message from the server
-            error = true;
+            // Check if the response is OK
+            if (response.ok) {
+                submitted = true;
+                error = false; // Reset error if submission is successful
+                // Reset input fields
+                name = '';
+                email = '';
+                message = '';
+            } else {
+                // Handle server error
+                const contentType = response.headers.get('content-type');
+                if (contentType && contentType.includes('application/json')) {
+                    const errorData = await response.json();
+                    console.error("Error sending message:", errorData.error);
+                    error = true; // Set error state to true
+                } else {
+                    console.error("Server returned a non-JSON error response");
+                    error = true; // Set error state to true
+                }
+            }
+        } catch (err) {
+            console.error("Error during submission:", err);
+            error = true; // Set error state to true
         }
     }
 </script>
@@ -79,13 +96,14 @@
             <button
                 type="submit"
                 class="px-4 py-2 bg-primary-500 text-white rounded-md hover:bg-primary-600"
+                disabled={submitted}
             >
                 {submitted ? 'Message Sent!' : 'Send Message'}
             </button>
         </div>
 
         {#if error}
-            <p class="text-red-500">All fields are required!</p>
+            <p class="text-red-500">All fields are required, or an error occurred during submission!</p>
         {/if}
     </form>
 </div>

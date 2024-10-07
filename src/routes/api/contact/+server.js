@@ -1,6 +1,6 @@
-// src/routes/api/contact/+server.js
 import { error } from '@sveltejs/kit';
 import nodemailer from 'nodemailer';
+import { EMAIL_PASS, EMAIL_USER } from '$env/static/private';  // Use dynamic import for runtime access
 
 export const POST = async ({ request }) => {
     try {
@@ -17,8 +17,8 @@ export const POST = async ({ request }) => {
             port: 587,
             secure: false,
             auth: {
-                user: env.EMAIL_PASS,
-                pass: env.EMAIL_USER
+                user: EMAIL_USER,  // Use environment variable
+                pass: EMAIL_PASS   // Use environment variable
             }
         });
 
@@ -35,6 +35,12 @@ export const POST = async ({ request }) => {
         return new Response(JSON.stringify({ success: true }), { status: 200 });
     } catch (err) {
         console.error(err);
+
+        // Handle specific error codes
+        if (err.responseCode === 535) {
+            throw error(500, "Authentication failed: Check your email credentials.");
+        }
+
         throw error(500, "Internal Server Error");
     }
 };
