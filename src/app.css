@@ -42,7 +42,7 @@
   :root {
     --bg-color: #f9fafb;
     --text-primary: #333;
-    --text-secondary: #555;
+    --text-secondary: #121212;
     --text-muted: #7f8c8d;
     --card-bg: #ffffff;
     --verified-bg: #2ecc71;
@@ -54,8 +54,8 @@
     --btn-text: #ffffff;
     --link-color: #3498db;
     --link-color1: #e58626;
-    --gradient-start: #f0f4f8;
-    --gradient-end: #d9e2ec;
+    --gradient-start: #f9f9f9;
+    --gradient-end: #ffffff;
 }
 
 .dark {
