@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<div class="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-			Coinbai is a dynamic platform in the cryptocurrency sector, renowned for blending finance with the engaging world of memes. Established as a unique content hub for crypto enthusiasts, Coinbai offers a fresh perspective on the complex and ever-evolving landscape of digital currencies. It serves as a vital resource for both informative and entertaining content, making it a go-to destination for those looking to stay updated with the latest trends and insights in the world of cryptocurrency.
+			Coinbai is a dynamic platform in the beermoney and small finance space, offering a blend of financial tips and engaging content. It serves as a resource for individuals looking to earn money through side gigs, cashback offers, and small online tasks. With a focus on practical finance, Coinbai keeps its audience informed on how to make extra income in a fun and accessible way.
 		</div>
 	</div>
 	<div class="space-y-2 py-8 md:space-y-5">

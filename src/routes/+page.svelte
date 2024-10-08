@@ -60,19 +60,19 @@
     <h1
         class="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
     >
-        Best Crypto Deals 2024
+        Best Beermoney Site 2024
     </h1>
     <p class="text-xl prose-xl text-gray-800 dark:text-gray-400">
-        Welcome to Coinbai! Discover the best affiliate promos for top cryptocurrency exchanges. Stay informed and maximize your crypto rewards with our exclusive offers.
+        Welcome to Coinbai! Stay informed and boost your earnings with our exclusive beermoney and small finance tips and offers.
     </p>
 </div>
 
 <section>
     <h2 class="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-9">
-        Exceptional Crypto Deals
+        Exceptional Deals
     </h2>
     <p class="text-gray-700 dark:text-gray-300">
-        It's not always easy to find actually working crypto deals, especially when it comes to free Bitcoin promo codes. However, to make sure that you find everything you're looking for in one place, our dedicated team is regularly searching the Internet and manually selects the most attractive offers that you can instantly find on our site.
+        It's not always easy to find actually working deals and offers, especially when it comes to free Bitcoin promo codes. However, to make sure that you find everything you're looking for in one place, our team is regularly searching the Internet and manually selects the most attractive offers that you can instantly find on our site.
     </p>
     {#each promotions as promo}
         <div class="promo-card">

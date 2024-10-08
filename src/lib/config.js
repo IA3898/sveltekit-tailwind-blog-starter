@@ -1,8 +1,8 @@
 export const config = {
-	title: 'Coinbai: Crypto Memes & Finance Hub',
+	title: 'Coinbai: Crypto Beermoney & Finance Hub',
 	author: 'Coinbai',
 	headerTitle: 'Coinbai',
-	description: 'Coinbai is your go-to source for cryptocurrency memes and financial insights, powered by Sveltekit and Tailwind.css',
+	description: 'Coinbai is your go-to source for beermoney guides, moneymaking and financial insights.',
 	language: 'en-us',
 	theme: 'dark', // system, dark or light
 	domain: 'http://www.coinbai.com/', // Replace with Coinbai's actual domain

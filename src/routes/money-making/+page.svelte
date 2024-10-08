@@ -12,11 +12,11 @@
         description: "Earn money by taking online surveys.",
         sites: [
             { name: "Swagbucks", link: "https://www.swagbucks.com", favicon: "https://www.swagbucks.com/favicon.ico" },
-            { name: "Survey Junkie", link: "https://www.surveyjunkie.com", favicon: "https://www.surveyjunkie.com/favicon.ico" },
-            { name: "Pinecone Research", link: "https://www.pineconeresearch.com", favicon: "https://www.pineconeresearch.com/favicon.ico" },
+            { name: "Survey Junkie", link: "https://www.surveyjunkie.com", favicon: null },
+            { name: "Pinecone Research", link: "https://www.pineconeresearch.com", favicon: null },
             { name: "Prolific", link: "https://www.prolific.co", favicon: "https://www.prolific.co/favicon.ico" },
             { name: "YouGov", link: "https://yougov.com", favicon: "https://yougov.com/favicon.ico" },
-            { name: "Prime Opinion", link: "https://www.primeopinion.com", favicon: "https://www.primeopinion.com/favicon.ico" },
+            { name: "Prime Opinion", link: "https://www.primeopinion.com", favicon: null },
             { name: "Google Opinion Rewards", link: "https://play.google.com/store/apps/details?id=com.google.android.apps.paidtasks", favicon: "https://play.google.com/favicon.ico" }
         ]
     },
@@ -25,7 +25,7 @@
         icon: "/icons/cashback.png",
         description: "Get cashback on your online purchases.",
         sites: [
-            { name: "Rakuten", link: "https://www.rakuten.com", favicon: "https://www.rakuten.com/favicon.ico" },
+            { name: "Rakuten", link: "https://www.rakuten.com", favicon: null },
             { name: "TopCashback", link: "https://www.topcashback.com", favicon: "https://www.topcashback.com/favicon.ico" }
         ]
     },
@@ -34,7 +34,7 @@
         icon: "/icons/micro.png",
         description: "Earn money for completing small online tasks.",
         sites: [
-            { name: "Amazon Mechanical Turk", link: "https://www.mturk.com", favicon: "https://www.mturk.com/favicon.ico" },
+            { name: "Amazon Mechanical Turk", link: "https://www.mturk.com", favicon: null },
             { name: "Clickworker", link: "https://www.clickworker.com", favicon: "https://www.clickworker.com/favicon.ico" }
         ]
     },
@@ -43,11 +43,11 @@
         icon: "/icons/test.png",
         description: "Earn money by testing sites.",
         sites: [
-            { name: "Test IO", link: "https://test.io", favicon: "https://test.io/favicon.ico" },
-            { name: "UserTesting", link: "https://www.usertesting.com", favicon: "https://www.usertesting.com/favicon.ico" },
+            { name: "Test IO", link: "https://test.io", favicon: null },
+            { name: "UserTesting", link: "https://www.usertesting.com", favicon: null },
             { name: "TestOnline", link: "https://www.testonline.com", favicon: "https://www.testonline.com/favicon.ico" },
             { name: "Userlytics", link: "https://www.userlytics.com", favicon: "https://www.userlytics.com/favicon.ico" },
-            { name: "IntelliZoom", link: "https://www.intellizoom.com", favicon: "https://www.intellizoom.com/favicon.ico" }
+            { name: "IntelliZoom", link: "https://www.intellizoom.com", favicon: null }
         ]
     },
     {
@@ -55,10 +55,10 @@
         icon: "/icons/projects.png",
         description: "Projects/Microtasks sites.",
         sites: [
-            { name: "CrowdGen", link: "https://crowdgen.com", favicon: "https://crowdgen.com/favicon.ico" },
+            { name: "CrowdGen", link: "https://crowdgen.com", favicon: null },
             { name: "Swagbucks", link: "https://www.swagbucks.com", favicon: "https://www.swagbucks.com/favicon.ico" },
-            { name: "Survey Junkie", link: "https://www.surveyjunkie.com", favicon: "https://www.surveyjunkie.com/favicon.ico" },
-            { name: "Pinecone Research", link: "https://www.pineconeresearch.com", favicon: "https://www.pineconeresearch.com/favicon.ico" }
+            { name: "Survey Junkie", link: "https://www.surveyjunkie.com", favicon: null },
+            { name: "Pinecone Research", link: "https://www.pineconeresearch.com", favicon: null }
         ]
     },
     {
@@ -67,11 +67,27 @@
         description: "Buy, sell, and trade cryptocurrencies.",
         sites: [
             { name: "Coinbase", link: "https://www.coinbase.com", favicon: "https://www.coinbase.com/favicon.ico" },
-            { name: "Binance", link: "https://www.binance.com", favicon: "https://www.binance.com/favicon.ico" },
+            { name: "Binance", link: "https://www.binance.com", favicon: null },
             { name: "Kraken", link: "https://www.kraken.com", favicon: "https://www.kraken.com/favicon.ico" }
         ]
     },
+    {
+        title: "Subreddits",
+        icon: "/icons/reddit.png",
+        description: "Find discussions on beermoney opportunities on Reddit.",
+        sites: [
+            { name: "r/beermoney", link: "https://www.reddit.com/r/beermoney", favicon: "https://www.reddit.com/favicon.ico" },
+            { name: "r/beermoneyGlobal", link: "https://www.reddit.com/r/beermoneyGlobal", favicon: "https://www.reddit.com/favicon.ico" },
+            { name: "r/BeerMoneyEU", link: "https://www.reddit.com/r/beermoneyEU", favicon: "https://www.reddit.com/favicon.ico" },
+            { name: "r/beermoneyindia", link: "https://www.reddit.com/r/beermoneyIndia", favicon: "https://www.reddit.com/favicon.ico" },
+            { name: "r/WorkOnline", link: "https://www.reddit.com/r/WorkOnline", favicon: "https://www.reddit.com/favicon.ico" },
+            { name: "r/signupsforpay", link: "https://www.reddit.com/r/signupsforpay", favicon: "https://www.reddit.com/favicon.ico" },
+            { name: "r/GPTsites", link: "https://www.reddit.com/r/GPTsites", favicon: "https://www.reddit.com/favicon.ico" },
+            { name: "r/SlaveLabour", link: "https://www.reddit.com/r/slavelabour", favicon: "https://www.reddit.com/favicon.ico" }
+        ]
+    }
 ];
+
 
 </script>
 
@@ -98,7 +114,7 @@
                     {#each category.sites as site, index}
                         <li class="flex items-center">
                             <img 
-                            src={site.favicon ? new URL(site.favicon).toString() : "/icons/missingFav.png"} 
+                            src={site.favicon ? site.favicon  : "/icons/missingFav.png"} 
                             alt="/icons/missingFav.png" 
                             class="h-4 w-4 mr-2" 
                             onError={(e) => { e.target.src = "/icons/missingFav.png"; e.target.onerror = null; }} 
