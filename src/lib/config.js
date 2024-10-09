@@ -37,8 +37,8 @@ export const user = {
 
 export const navLinks = [
 	{ href: '/money-making/', title: 'Beer Money Sites' },
-	{ href: '/about/', title: 'About' },
 	{ href: '/blog/', title: 'Blog' },
+	{ href: '/about/', title: 'About' },
 	
 ];
 

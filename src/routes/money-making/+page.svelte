@@ -11,7 +11,7 @@
         icon: "/icons/survey.png",
         description: "Earn money by taking online surveys.",
         sites: [
-            { name: "Swagbucks", link: "https://www.swagbucks.com", favicon: "https://www.swagbucks.com/favicon.ico" },
+            { name: "Swagbucks", link: "[Platforms](https://coinbai.com/money-making)", favicon: "https://www.swagbucks.com/favicon.ico" },
             { name: "Survey Junkie", link: "https://www.surveyjunkie.com", favicon: null },
             { name: "Pinecone Research", link: "https://www.pineconeresearch.com", favicon: null },
             { name: "Prolific", link: "https://www.prolific.co", favicon: "https://www.prolific.co/favicon.ico" },
@@ -56,7 +56,7 @@
         description: "Projects/Microtasks sites.",
         sites: [
             { name: "CrowdGen", link: "https://crowdgen.com", favicon: null },
-            { name: "Swagbucks", link: "https://www.swagbucks.com", favicon: "https://www.swagbucks.com/favicon.ico" },
+            { name: "Swagbucks", link: "[Platforms](https://coinbai.com/money-making)", favicon: "https://www.swagbucks.com/favicon.ico" },
             { name: "Survey Junkie", link: "https://www.surveyjunkie.com", favicon: null },
             { name: "Pinecone Research", link: "https://www.pineconeresearch.com", favicon: null }
         ]

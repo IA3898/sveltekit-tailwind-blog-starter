@@ -50,13 +50,17 @@ One of the most attractive features of Crowdgen is its flexibility in work hours
 
 Each project offers three work-hour options, helping freelancers manage their time and track progress effectively. Contributors can take on projects that fit their lifestyle and availability, ensuring they meet deadlines while enjoying the freedom to work from anywhere.
 
+<img title="Crowdgen" alt="Crowdgen" src="/img/Crowdgen.png">
+
 ## My Honest Review
 
-After testing the platform and exploring its new features, I found Crowdgen to be a significant upgrade over Appen Connect in many areas. The new interface (alltough many bugs during the initial release) is clean and easy to navigate, and I appreciated the added clarity provided by project infographics.
+After testing the platform and exploring its new features, I found Crowdgen to be a significant upgrade over Appen Connect in many areas. The new interface (although many bugs during the initial release) is clean and easy to navigate, and I appreciated the added clarity provided by project infographics.
 
 However, I did encounter some issues with previously applied projects. Some of the tasks I was waiting to be screened for seem to have disappeared in the transition to Crowdgen. This is disappointing, especially for contributors who had already invested time and effort in passing qualification tests.
 
-Despite these setbacks, the improvements to payment methods, the flexibility of work hours, and the expanded job options make Crowdgen a solid platform for freelancers. The interface is user-friendly, and I particularly enjoyed the ability to update my skills and qualifications to receive more job invitations. This dynamic approach to task allocation helps contributors stay engaged and continue developing their skills.
+Despite these setbacks, Crowdgen does offer some great opportunities if you get lucky with the right project. Certain tasks can pay up to $20, especially if you have the required language skills or specific expertise. These higher-paying jobs are a fantastic reward for those who qualify, making it worthwhile to stay engaged and continuously update your profile.
+
+The improvements to payment methods, the flexibility of work hours, and the expanded job options make Crowdgen a solid platform for freelancers. The dynamic approach to task allocation, allowing users to receive more invitations by updating their skills, helps contributors stay engaged and continue developing their talents.
 
 Based on my experience, I would rate Crowdgen 4 out of 5 stars. There is room for improvement, but it is a positive step forward for Appen’s contributor network.
 
