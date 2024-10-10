@@ -18,6 +18,7 @@
             { name: "YouGov", link: "https://yougov.com", favicon: "https://yougov.com/favicon.ico" },
             { name: "Prime Opinion", link: "https://www.primeopinion.com", favicon: null },
             { name: "Google Opinion Rewards", link: "https://play.google.com/store/apps/details?id=com.google.android.apps.paidtasks", favicon: "https://play.google.com/favicon.ico" }
+            // https://freecash.com/r/8c4ed484b1e02b55f082
         ]
     },
     {
@@ -36,6 +37,7 @@
         sites: [
             { name: "Amazon Mechanical Turk", link: "https://www.mturk.com", favicon: null },
             { name: "Clickworker", link: "https://www.clickworker.com", favicon: "https://www.clickworker.com/favicon.ico" }
+            // https://freecash.com/r/8c4ed484b1e02b55f082
         ]
     },
     {
