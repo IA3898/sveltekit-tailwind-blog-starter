@@ -1,5 +1,5 @@
 export const config = {
-	title: 'Coinbai: Crypto Beermoney & Finance Hub',
+	title: 'Coinbai: Beermoney & Finance Hub',
 	author: 'Coinbai',
 	headerTitle: 'Coinbai',
 	description: 'Coinbai is your go-to source for beermoney guides, moneymaking and financial insights.',
