@@ -72,5 +72,8 @@ However, if you're hoping to replace a full-time job or make substantial money q
 
 If you're looking for a legitimate way to make money online without needing any special skills, Swagbucks is a solid choice. Just be sure to manage your expectations and understand that it will take time to accumulate substantial rewards.
 
+## Do you want the best moneymaking sites?
+
+Check out [Beermoney sites](https://coinbai.com/beermoney-sites) if you want an easy overview of the best money-making sites, all in one page!
 ---
 

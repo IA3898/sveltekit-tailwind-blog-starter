@@ -143,3 +143,7 @@ Alternative assets encompass investments outside traditional categories, such as
 If you’re looking for viable assets to invest in, I hope this list of cash-flowing assets provides a solid starting point. The diversity of these asset classes is a major advantage, with many offering fully passive income opportunities and minimal startup costs.
 
 Ultimately, income-generating assets enable your money to work for you. Over time and with the power of compound interest, you can accumulate significant wealth.
+
+## Do you want the best moneymaking sites?
+
+Check out [Beermoney sites](https://coinbai.com/beermoney-sites) if you want an easy overview of the best money-making sites, all in one page!

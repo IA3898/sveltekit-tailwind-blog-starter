@@ -69,3 +69,7 @@ Rating: 5 out of 5.
 Overall, Prolific is an excellent platform for anyone interested in participating in paid research studies. The platform’s ethical standards, transparent payment system, and flexibility make it a top choice for earning extra income from home. While study availability can vary, the overall experience is positive, and the potential earnings are higher than many other survey sites.
 
 If you’re looking for a flexible, legitimate way to contribute to research and earn money, Prolific is definitely worth checking out. It offers a unique opportunity to be part of academic and scientific research, all while making some extra cash in your spare time.
+
+## Do you want the best moneymaking sites?
+
+Check out [Beermoney sites](https://coinbai.com/beermoney-sites) if you want an easy overview of the best money-making sites, all in one page!

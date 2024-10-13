@@ -79,4 +79,6 @@ Bitcoin can be used for investing and at the same time, a medium of exchange. At
 
 Investing in Bitcoin offers multiple pathways, from using exchanges and traditional brokers to ATMs and ETFs. As you explore these options, consider the security of your investments and your long-term financial goals. Platforms like [Binance](https://accounts.binance.com/register?ref=13732272) offer robust tools and security features for both novice and experienced traders. Sign up on Binance today using the [referral link](https://accounts.binance.com/register?ref=13732272) to get started with Bitcoin trading and enjoy exclusive benefits.
 
-*Author: Coinbai*
+## Do you want the best moneymaking sites?
+
+Check out [Beermoney sites](https://coinbai.com/beermoney-sites) if you want an easy overview of the best money-making sites, all in one page!
