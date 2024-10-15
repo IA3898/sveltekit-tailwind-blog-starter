@@ -242,7 +242,7 @@ import { onMount } from 'svelte';
                             <div 
                             
                                 on:click={() => toggleSiteSelection(site)} 
-                                class="flex items-center justify-center w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-700 cursor-pointer ml-auto"
+                                class="flex items-center justify-center w-5 h-5 rounded-full bg-gray-200 dark:bg-gray-700 cursor-pointer ml-auto"
                                 aria-label="Select Site"
                                 title={selectedSites.includes(site.id) ? "Deselect" : "Select"}
                                 style:cursor={['Subreddits', 'Cryptocurrency Exchanges', 'Cashback Sites'].includes(category.title) ? 'not-allowed' : 'pointer'}
@@ -278,7 +278,7 @@ import { onMount } from 'svelte';
                 type="number" 
                 bind:value={hoursSpentPerDay} 
                 placeholder="Hours spent per day" 
-                class="border border-gray-300 dark:border-gray-600 rounded-md p-2 text-lg w-1/3 mx-auto mb-4"
+                class="border border-gray-300 dark:border-gray-600 dark:text-gray-600 rounded-md p-2 text-lg w-1/3 mx-auto mb-4"
                 min="0"
             />
             <button 
