@@ -25,15 +25,6 @@
         ]
     },
     {
-        title: "Cashback Sites",
-        icon: "/icons/cashback.png",
-        description: "Get cashback on your online purchases.",
-        sites: [
-            { id: 11, name: "Rakuten", link: "https://www.rakuten.com", favicon: null, reviewLink: null, estimatedEarnings: "Varies based on tasks" },
-            { id: 12, name: "TopCashback", link: "https://www.topcashback.com", favicon: "https://www.topcashback.com/favicon.ico", reviewLink: null, estimatedEarnings: "Varies based on tasks" }
-        ]
-    },
-    {
         title: "Microtask Sites",
         icon: "/icons/micro.png",
         description: "Earn money for completing small online tasks.",
@@ -68,15 +59,17 @@
             { id: 26, name: "Pinecone Research", link: "https://rewards.pineconeresearch.com/", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $5-$20 <br> 📈 avg. 10$", average: 10 }
         ]
     },
+
     {
-        title: "Affiliate Programs",
-        icon: "/icons/affiliate.png",
-        description: "Earn by referring others.",
+        title: "Cashback Sites",
+        icon: "/icons/cashback.png",
+        description: "Get cashback on your online purchases.",
         sites: [
-            { id: 27, name: "Rakuten", link: "https://www.rakuten.com", favicon: null, reviewLink: null, estimatedEarnings: "Varies based on tasks" },
-            { id: 28, name: "TopCashback", link: "https://www.topcashback.com", favicon: "https://www.topcashback.com/favicon.ico", reviewLink: null, estimatedEarnings: "Varies based on tasks" }
+            { id: 11, name: "Rakuten", link: "https://www.rakuten.com", favicon: null, reviewLink: null, estimatedEarnings: "Varies based on tasks" },
+            { id: 12, name: "TopCashback", link: "https://www.topcashback.com", favicon: "https://www.topcashback.com/favicon.ico", reviewLink: null, estimatedEarnings: "Varies based on tasks" }
         ]
     },
+
 
 
     {
