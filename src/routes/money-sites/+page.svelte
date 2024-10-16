@@ -16,12 +16,15 @@
             { id: 2, name: "Prolific", link: "https://www.prolific.co", favicon: "https://www.prolific.co/favicon.ico", reviewLink: "https://coinbai.com/blog/prolific-review", estimatedEarnings: "💲Up to 25-300$ <br> 📈 avg. 70$", average: 70 },
             { id: 3, name: "dscout", link: "https://dscout.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to 50-300$ <br> 📈 avg. 50$", average: 50 },
             { id: 4, name: "YouGov", link: "https://yougov.com", favicon: "https://yougov.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 20$", average: 20 },
+            { id: 27, name: "gg2u", link: "https://premium.gg2u.org?referrer=coinbai", favicon: null, reviewLink: "https://coinbai.com/blog/gg2u", estimatedEarnings: "💲Up to $50 <br> 📈 avg. 30$", average: 30 },
             { id: 5, name: "Prime Opinion", link: "https://www.primeopinion.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 30$", average: 30 },
             { id: 6, name: "Google Opinion Rewards", link: "https://play.google.com/store/apps/details?id=com.google.android.apps.paidtasks", favicon: "https://play.google.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to 5-25$ <br> 📈 avg. 💲20", average: 20 },
             { id: 7, name: "Ysense", link: "https://www.ysense.com/?rb=197145215", favicon: "https://www.ysense.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 20$", average: 20 },
             { id: 8, name: "Pinecone Research", link: "https://rewards.pineconeresearch.com/", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 per month <br> 📈 avg. 20$", average: 20 },
             { id: 9, name: "Gamermine", link: "https://gamermine.com/r/coinbai", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 },
             { id: 10, name: "Gain.gg", link: "https://gain.gg/r/coinbai", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 }
+            
+
         ]
     },
     {
