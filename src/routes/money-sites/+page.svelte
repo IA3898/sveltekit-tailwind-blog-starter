@@ -49,7 +49,7 @@
     {
         title: "Paid Projects",
         icon: "/icons/projects.png",
-        description: "Projects/Microtasks sites.",
+        description: "Paojects/Microtasks sites.",
         sites: [
             { id: 21, name: "CrowdGen", link: "https://crowdgen.com", favicon: null, reviewLink: null, estimatedEarnings: "Up to $10-$200 <br> 📈 avg. 20$ <br> Varies based on projects available", average: 20 },
             { id: 22, name: "Swagbucks", link: "https://www.swagbucks.com/p/register?rb=151254487&rp=1", favicon: "https://www.swagbucks.com/favicon.ico", reviewLink: "https://coinbai.com/blog/swagbucks", estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 30$", average: 30 },
