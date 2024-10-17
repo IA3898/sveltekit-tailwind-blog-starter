@@ -26,15 +26,25 @@
 					</div>
 				</a>
 			</div>
+			
 
-			<!-- Navigation and Theme Switcher -->
-			<div class="flex items-center text-base leading-5">
-				<div class="hidden sm:block">
-					{#each navLinks as link}
-						<a href={link.href} class="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
-							>{link.title}</a>
-					{/each}
-				</div>
+			<!-- Navigation and Theme Switcher  export const navLinks = [
+	{ href: '/money-sites/', title: 'Beer Money Sites' }, money.png
+	{ href: '/blog/', title: 'Blog' }, blog.png
+	{ href: '/about/', title: 'About' }, money.png
+
+	
+	
+];-->
+<div class="flex items-center space-x-4">
+	{#each navLinks as link}
+	  <a href={link.href} class="flex items-center  font-medium text-gray-900 dark:text-gray-100 sm:p-4">
+		<img src={link.icon} alt="{link.title} icon" class="w-6 h-6 mr-2 dark:invert" />
+		{link.title}
+	  </a>
+	{/each}
+  
+  
 				<ThemeSwitch />
 				<MobileMenu />
 			</div>

@@ -9,12 +9,11 @@
         {
             id: 1,
             provider: 'BINANCE',
-            title: 'CLAIM $600 REWARD',
-            description: 'Exclusive Binance Referral Code',
-            details: "Don't miss this limited-time deal that's only available for our readers. Use the Binance referral code 13732272 & receive up to $600 in rewards and bonuses!",
-            expiration: '20/05/2024',
+            title: 'Join Binance Today – The Worlds Leading Crypto Exchange',
+            description: 'Sing up now!',
+            details: "Don't miss this deal that's available for our readers!",
+            expiration: '20/12/2024',
             used: 65,
-            remaining: 49,
             rating: "5.0",
             link: 'https://accounts.binance.com/register?ref=13732272',
             reviewLink: '#',
@@ -23,12 +22,11 @@
         {
             id: 2,
             provider: 'CRYPTO',
-            title: 'Get $25 Bonus',
+            title: 'Get $50 Bonus',
             description: 'Sign Up with Crypto.com',
-            details: 'Sign up to Crypto.com app using our referral link and get a $25 bonus. Start trading and investing in cryptocurrencies today!',
-            expiration: '21/05/2024',
+            details: 'Sign up to Crypto.com app using our referral link and get a $50 bonus. Start trading and investing in cryptocurrencies today!',
+            expiration: '21/12/2024',
             used: 15,
-            remaining: 34,
             rating: 4.8,
             link: 'https://crypto.com/app/nbzfay494y',
             reviewLink: '#',
@@ -40,11 +38,10 @@
             title: 'UP TO $500 BONUS',
             description: 'Get KuCoin Referral Code Reward',
             details: 'Join KuCoin today using our referral link and earn up to $500 in bonuses. Enjoy trading with one of the top cryptocurrency exchanges.',
-            expiration: '22/05/2024',
+            expiration: '22/12/2024',
             used: 3,
-            remaining: 50,
             rating: 4.9,
-            link: 'https://www.kucoin.com/r/rf/QBAMNB9A',
+            link: 'https://www.kucoin.com/r/rf/r83B4JD',
             reviewLink: '#',
             imgUrl: 'img/c1d.png'
         }
@@ -92,7 +89,6 @@
                 <div class="promo-footer">
                     <span class="promo-expiration">Expiration date: {promo.expiration}</span>
                     <span class="promo-used">{promo.used} People Used</span>
-                    <span class="promo-remaining">Only {promo.remaining} Left</span>
                 </div>
             </div>
             <div class="promo-rating">

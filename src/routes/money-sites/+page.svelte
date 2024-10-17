@@ -35,7 +35,8 @@
             { id: 13, name: "Amazon Mechanical Turk", link: "https://www.mturk.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to 20-100$ <br> 📈 avg. 30$", average: 30 },
             { id: 14, name: "Clickworker", link: "https://www.clickworker.com", favicon: "https://www.clickworker.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to 20-50$ <br> 📈 avg. 15$", average: 15 },
             { id: 15, name: "Gamermine", link: "https://gamermine.com/r/coinbai", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 },
-            { id: 16, name: "Gain.gg", link: "https://gain.gg/r/coinbai", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 }
+            { id: 16, name: "Gain.gg", link: "https://gain.gg/r/coinbai", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 },
+            { id: 27, name: "Mistplay", link: "https://mistplay.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 }
         ]
     },
     {
@@ -81,8 +82,10 @@
         description: "Buy, sell, and trade cryptocurrencies.",
         sites: [
             { name: "Coinbase", link: "https://www.coinbase.com", favicon: "https://www.coinbase.com/favicon.ico", reviewLink: null },
-            { name: "Binance", link: "https://www.binance.com", favicon: null, reviewLink: null },
-            { name: "Kraken", link: "https://www.kraken.com", favicon: "https://www.kraken.com/favicon.ico", reviewLink: null }
+            { name: "Binance", link: "https://accounts.binance.com/register?ref=13732272", favicon: null, reviewLink: null },
+            { name: "Crypto", link: "https://crypto.com/app/nbzfay494y", favicon: "https://crypto.com/favicon.ico", reviewLink: null },
+            { name: "Kraken", link: "https://www.kraken.com", favicon: "https://www.kraken.com/favicon.ico", reviewLink: null },
+            { name: "Kucoin", link: "https://www.kucoin.com/r/rf/r83B4JD", favicon: null, reviewLink: null }
         ]
     },
     {
@@ -96,7 +99,6 @@
             { name: "r/beermoneyindia", link: "https://www.reddit.com/r/beermoneyIndia", favicon: "https://www.reddit.com/favicon.ico", reviewLink: null },
             { name: "r/WorkOnline", link: "https://www.reddit.com/r/WorkOnline", favicon: "https://www.reddit.com/favicon.ico", reviewLink: null },
             { name: "r/signupsforpay", link: "https://www.reddit.com/r/signupsforpay", favicon: "https://www.reddit.com/favicon.ico", reviewLink: null },
-            { name: "r/GPTsites", link: "https://www.reddit.com/r/GPTsites", favicon: "https://www.reddit.com/favicon.ico", reviewLink: null },
             { name: "r/SlaveLabour", link: "https://www.reddit.com/r/slavelabour", favicon: "https://www.reddit.com/favicon.ico", reviewLink: null }
         ]
     }
@@ -133,7 +135,7 @@ import { onMount } from 'svelte';
             const site = category.sites.find(s => s.id === siteId); // Find the site object by ID
 
             if (site) {
-                const earningsPerHour = typeof site.average === 'number' ? site.average / 8 : 0; // Validate average
+                const earningsPerHour = typeof site.average === 'number' ? site.average/4 : 0; // Validate average
                 const siteEarnings = (hoursSpentPerDay * earningsPerHour); // Calculate total for this site
                 total += siteEarnings; // Sum up the earnings across all sites
                 siteFound = true; // Mark that we found the site
@@ -276,6 +278,7 @@ import { onMount } from 'svelte';
                 placeholder="Hours spent per day" 
                 class="border border-gray-300 dark:border-gray-600 dark:text-gray-600 rounded-md p-2 text-lg w-1/3 mx-auto mb-4"
                 min="0"
+                max="8"
             />
             <button 
                 on:click={() => calculateTotalEarnings(selectedSites, beermoneyCategories)} 
