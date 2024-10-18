@@ -55,6 +55,7 @@ One major risk is government intervention. Some countries have already moved to 
 
 Despite these risks, Bitcoin's decentralized nature and first-mover advantage give it a strong case for long-term viability. For now, the question remains: Will Bitcoin fulfill its potential and soar to unimaginable heights, or will external factors clip its wings before it gets there? Only time will tell.
 
+
 ## Do you want to buy BTC?
 
 Check out [Binance exchange](https://accounts.binance.com/register?ref=13732272) if you want to buy bitcoin!

@@ -336,6 +336,23 @@ import { onMount } from 'svelte';
     </p>
 
     <!-- End Section -->
+
+
+        <!-- Call to Action -->
+        <h3 class="text-3xl font-semibold text-center mb-6 dark:text-gray-200 mt-10">Do you like the site? Feel free to donate!</h3>
+
+        <div class="mr-4 -ml-6 mt-6 mr-80 ml-80 mt-6">
+            <lightning-widget 
+              name="Coinbai" 
+              accent="#ea8100" 
+              to="coinbaicontact@zbd.gg" 
+              image="\blog\img\newlogo.png" 
+            />
+          </div>
+          
+          <script src="https://embed.twentyuno.net/js/app.js"></script>
+    
+        <!-- End Section -->
 </div>
 
 

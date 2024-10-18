@@ -121,6 +121,18 @@
 							&larr; Back to the blog
 						</a>
 					</div>
+					<div class="mr-4 -ml-6 mt-6">
+						<lightning-widget 
+						  name="Coinbai" 
+						  accent="#ea8100" 
+						  to="coinbaicontact@zbd.gg" 
+						  image="\blog\img\newlogo.png" 
+						/>
+					  </div>
+					  
+					  <script src="https://embed.twentyuno.net/js/app.js"></script>
+
+					
 				</footer>
 			</div>
 		</div>
