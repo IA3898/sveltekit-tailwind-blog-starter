@@ -54,7 +54,7 @@
     {
         title: "Paid Projects",
         icon: "/icons/projects.png",
-        description: "Paojects/Microtasks sites.",
+        description: "Projects/Microtasks sites.",
         sites: [
             { id: 21, name: "CrowdGen", link: "https://crowdgen.com", favicon: null, reviewLink: null, estimatedEarnings: "Up to $10-$200 <br> 📈 avg. 20$ <br> Varies based on projects available", average: 20 },
             { id: 22, name: "Swagbucks", link: "https://www.swagbucks.com/p/register?rb=151254487&rp=1", favicon: "https://www.swagbucks.com/favicon.ico", reviewLink: "https://coinbai.com/blog/swagbucks", estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 30$", average: 30 },
@@ -266,7 +266,7 @@ import { onMount } from 'svelte';
         <h2 class="text-3xl font-semibold text-center mb-6 dark:text-gray-200">💲 Monthly Income Calculator</h2>
         <div class="text-center mb-4">
             <p class="text-lg dark:text-gray-300">
-                Select and deselect sites at their tables above: 
+                Select or deselect sites from the tables above: 
                 <span class="font-bold dark:text-gray-400">{selectedSites.length} site{selectedSites.length !== 1 ? 's' : ''} selected</span>
             </p>
             <p class="text-lg dark:text-gray-300 mb-4">
