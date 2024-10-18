@@ -14,10 +14,11 @@
         sites: [
             { id: 1, name: "Swagbucks", link: "https://www.swagbucks.com/p/register?rb=151254487&rp=1", favicon: "https://www.swagbucks.com/favicon.ico", reviewLink: "https://coinbai.com/blog/swagbucks", estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 30$", average: 30 },
             { id: 2, name: "Prolific", link: "https://www.prolific.co", favicon: "https://www.prolific.co/favicon.ico", reviewLink: "https://coinbai.com/blog/prolific-review", estimatedEarnings: "💲Up to 25-300$ <br> 📈 avg. 70$", average: 70 },
-            { id: 3, name: "dscout", link: "https://dscout.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to 50-300$ <br> 📈 avg. 50$", average: 50 },
+            { id: 3, name: "dscout", link: "https://dscout.com", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEVMaXFAQEBAQEBAQEBAQEBAQEBAQECnEBY3AAAAB3RSTlMAIKDw/zAQ2OB0JQAAAF5JREFUeAHd0cEJgDAQRNFPQAvQBhTSgJAKkinA/qsRJMouK3jPO372tAMsRV3bAaaiVzuBVcYBZBkVKDIazHKIgc/AbYhg/If4wvDkMEMYKkzZZaliJWnDyRUvPQcXE9lT28QB6/UAAAAASUVORK5CYII=", reviewLink: null, estimatedEarnings: "💲Up to 50-300$ <br> 📈 avg. 50$", average: 50 },
             { id: 4, name: "YouGov", link: "https://yougov.com", favicon: "https://yougov.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 20$", average: 20 },
-            { id: 27, name: "gg2u", link: "https://premium.gg2u.org?referrer=coinbai", favicon: null, reviewLink: "https://coinbai.com/blog/gg2u", estimatedEarnings: "💲Up to $50 <br> 📈 avg. 30$", average: 30 },
+            { id: 27, name: "gg2u", link: "https://premium.gg2u.org?referrer=coinbai", favicon: "https://th.bing.com/th?id=ODLS.854bc112-4f3f-4658-b87b-c6e7b5dda377&w=32&h=32&qlt=90&pcl=fffffa&r=0&o=6&pid=1.2", reviewLink: "https://coinbai.com/blog/gg2u", estimatedEarnings: "💲Up to $50 <br> 📈 avg. 30$", average: 30 },
             { id: 5, name: "Prime Opinion", link: "https://www.primeopinion.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 30$", average: 30 },
+            { id: 29, name: "PollPay", link: "https://www.pollpay.app?rb=197513791", favicon: "https://www.pollpay.app/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to $30 per month <br> 📈 avg. 20$", average: 20 },
             { id: 6, name: "Google Opinion Rewards", link: "https://play.google.com/store/apps/details?id=com.google.android.apps.paidtasks", favicon: "https://play.google.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to 5-25$ <br> 📈 avg. 💲20", average: 20 },
             { id: 7, name: "Ysense", link: "https://www.ysense.com/?rb=197145215", favicon: "https://www.ysense.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 20$", average: 20 },
             { id: 8, name: "Pinecone Research", link: "https://rewards.pineconeresearch.com/", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 per month <br> 📈 avg. 20$", average: 20 },
@@ -32,11 +33,11 @@
         icon: "/icons/micro.png",
         description: "Earn money for completing small online tasks.",
         sites: [
-            { id: 13, name: "Amazon Mechanical Turk", link: "https://www.mturk.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to 20-100$ <br> 📈 avg. 30$", average: 30 },
+            { id: 13, name: "Amazon Mechanical Turk", link: "https://www.mturk.com", favicon: "https://th.bing.com/th?id=ODLS.4c401f31-db5d-4d94-9be6-68f077d18b10&w=32&h=32&qlt=92&pcl=fffffa&r=0&o=6&pid=1.2", reviewLink: null, estimatedEarnings: "💲Up to 20-100$ <br> 📈 avg. 30$", average: 30 },
             { id: 14, name: "Clickworker", link: "https://www.clickworker.com", favicon: "https://www.clickworker.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to 20-50$ <br> 📈 avg. 15$", average: 15 },
             { id: 15, name: "Gamermine", link: "https://gamermine.com/r/coinbai", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 },
             { id: 16, name: "Gain.gg", link: "https://gain.gg/r/coinbai", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 },
-            { id: 27, name: "Mistplay", link: "https://mistplay.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 }
+            { id: 28, name: "Mistplay", link: "https://mistplay.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 }
         ]
     },
     {
@@ -44,8 +45,8 @@
         icon: "/icons/test.png",
         description: "Earn money by testing sites.",
         sites: [
-            { id: 17, name: "Test IO", link: "https://test.io", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to 10-300$ <br> 📈 avg. 40$", average: 40 },
-            { id: 18, name: "UserTesting", link: "https://www.usertesting.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to 10-200$ <br> 📈 avg. 60$", average: 60 },
+            { id: 17, name: "Test IO", link: "https://test.io", favicon: "https://th.bing.com/th?id=ODLS.d4838b5a-0fdb-4ef5-8971-b6a57cd5d712&w=32&h=32&qlt=90&pcl=fffffa&r=0&o=6&pid=1.2", reviewLink: null, estimatedEarnings: "💲Up to 10-300$ <br> 📈 avg. 40$", average: 40 },
+            { id: 18, name: "UserTesting", link: "https://www.usertesting.com", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAByElEQVR4Ae2XA4wdURSGp7YbN6htI65t27bdhrWi2g1qhHW7wdpmtLZ1ztlzV4+ze9/mzvpPvuDq/x5nRtPLyLXQnJnNXGSuVpHLzMKR66Cl5kh4Uy/GiyFFBDCDZMvbMiEMKSaK6SgjsJ0hgzgoI/DCQIE3MgIf7G1ecBRo+Smghcf0C2YdKFmz9CTQqHV213yoskBcMpJITCLqCviEIpVl+j7FAvGlArEVCPiGmQRmNAo0CjQKqBYQxSJxyfoC/uEmgWl7lQqYXl1+AdKUrbbzYzcApWaY1ozfqFjg8Reksjz5ijbzDz+Z5t2DxLxigdkHgLJzkUQQkb79Rzp2B+j4PaAfLkiIZXNE+6+DegHBUS7My0fSiyh/8BF5rUECgpVngP64I+WaiRQCklcI0oEbOvscFHjHUGWM3wQ0/wjQouNQ9qWU4Z2MwFWGDOKmjMAoptAggQmyN6aXDSi/PXo7aXIC60FIrGcCFBRHMLtHr8WmmqMZs56ESFemhxUjmD92ygqZMWbruo9ax8VGZBS/Ii7Yz2RaSWzXqjNc2If5N3JNucA3rbozai2Id+Mwk8lk6z8BGf9uDGCcmOVajcT0VD1MqyspAopbh1Y3QafTAAAAAElFTkSuQmCC", reviewLink: null, estimatedEarnings: "💲Up to 10-200$ <br> 📈 avg. 60$", average: 60 },
             { id: 19, name: "Userlytics", link: "https://www.userlytics.com", favicon: "https://www.userlytics.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to 50-300$ <br> 📈 avg. 50$", average: 50 },
             { id: 20, name: "IntelliZoom", link: "https://www.intellizoom.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to 50-300$ <br> 📈 avg. 50$", average: 50 }
         ]
@@ -57,7 +58,7 @@
         sites: [
             { id: 21, name: "CrowdGen", link: "https://crowdgen.com", favicon: null, reviewLink: null, estimatedEarnings: "Up to $10-$200 <br> 📈 avg. 20$ <br> Varies based on projects available", average: 20 },
             { id: 22, name: "Swagbucks", link: "https://www.swagbucks.com/p/register?rb=151254487&rp=1", favicon: "https://www.swagbucks.com/favicon.ico", reviewLink: "https://coinbai.com/blog/swagbucks", estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 30$", average: 30 },
-            { id: 23, name: "dscout", link: "https://dscout.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $10-$100 per project  <br> 📈 avg. 50$", average: 50 },
+            { id: 23, name: "dscout", link: "https://dscout.com", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEVMaXFAQEBAQEBAQEBAQEBAQEBAQECnEBY3AAAAB3RSTlMAIKDw/zAQ2OB0JQAAAF5JREFUeAHd0cEJgDAQRNFPQAvQBhTSgJAKkinA/qsRJMouK3jPO372tAMsRV3bAaaiVzuBVcYBZBkVKDIazHKIgc/AbYhg/If4wvDkMEMYKkzZZaliJWnDyRUvPQcXE9lT28QB6/UAAAAASUVORK5CYII=", reviewLink: null, estimatedEarnings: "💲Up to $10-$100 per project  <br> 📈 avg. 50$", average: 50 },
             { id: 24, name: "OneForma", link: "https://oneforma.com", favicon: "https://play-lh.googleusercontent.com/yhkZeYpVyx2N6kyTBsJI2YSKg-XVjWpZjL5Cf9FLdsfTlfiem4TwfWB_Vj0ygPWM6w=w240-h480-rw", reviewLink: null, estimatedEarnings: "💲Up to $50-$1000 per project  <br> 📈 avg. 60$", average: 60 },
             { id: 25, name: "Survey Junkie", link: "https://www.surveyjunkie.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $10-$40 per month  <br> 📈 avg. 15$", average: 15 },
             { id: 26, name: "Pinecone Research", link: "https://rewards.pineconeresearch.com/", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $5-$20 <br> 📈 avg. 10$", average: 10 }
@@ -82,7 +83,7 @@
         description: "Buy, sell, and trade cryptocurrencies.",
         sites: [
             { name: "Coinbase", link: "https://www.coinbase.com", favicon: "https://www.coinbase.com/favicon.ico", reviewLink: null },
-            { name: "Binance", link: "https://accounts.binance.com/register?ref=13732272", favicon: null, reviewLink: null },
+            { name: "Binance", link: "https://accounts.binance.com/register?ref=13732272", favicon: "https://th.bing.com/th?id=ODLS.911599c8-1878-403d-ab0f-2ed3bfd86b3f&w=32&h=32&qlt=90&pcl=fffffa&r=0&o=6&pid=1.2", reviewLink: null },
             { name: "Crypto", link: "https://crypto.com/app/nbzfay494y", favicon: "https://crypto.com/favicon.ico", reviewLink: null },
             { name: "Kraken", link: "https://www.kraken.com", favicon: "https://www.kraken.com/favicon.ico", reviewLink: null },
             { name: "Kucoin", link: "https://www.kucoin.com/r/rf/r83B4JD", favicon: null, reviewLink: null }
