@@ -35,10 +35,13 @@
         description: "Earn money for completing small online tasks.",
         sites: [
             { id: 13, name: "Amazon Mechanical Turk", link: "https://www.mturk.com", favicon: "https://th.bing.com/th?id=ODLS.4c401f31-db5d-4d94-9be6-68f077d18b10&w=32&h=32&qlt=92&pcl=fffffa&r=0&o=6&pid=1.2", reviewLink: null, estimatedEarnings: "💲Up to 20-100$ <br> 📈 avg. 30$", average: 30 },
-            { id: 14, name: "Clickworker", link: "https://www.clickworker.com", favicon: "https://www.clickworker.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to 20-50$ <br> 📈 avg. 15$", average: 15 },
+            { id: 30, name: "faucetcrypto", link: "https://faucetcrypto.com/r/4211947", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA4VBMVEURGCcADSAAABoAGCYJEiMAABVXWmGKjJAWHStqEzNfFDEIGCcAGSUAAA9BRE2dn6NrbXMoLTikqq13ACpFFS1TFS+KEDmQDzsAAAB9f4SRkpZfACc8FiwAGSOgDT4tFyosMTuys7Y6QEEGFRkkExxvDimYDjxLT1VHLopWPZsPIUIcFSGCETgADBViRLAOFyMAEABbQKMoJE92EjUkIUZkEzIAFRcAFBMUGSwbFERQOZE3JHIzKV9MN4glFymPkpIlLDBCMXg9LnBMN4ocHTovIGNBEiFUEykkDyMAHDMZExZK+700AAABxklEQVR4AW3SZ5+aMACA8WDcxq0hUIODFo4rDUEssZx76/f/QE3M7bv/2+eXHfCOkQMAQvCNfKFQLJVhpVpDX3q90Wy22p1ur4/NKqp9HNYsEdK27B94QGnVGb4bbIzGZWI1SxPi/vzlYUjl4Ndx7TEZjX3yECiPv50qDasvY+tj4nfIHxZxJZ7SJKHmUK9bsNujDgEuC+7YLELJX+ogPalNxgVQLruuS1IRuQDMhVfrV9TEORsYRVsr/Yszhc1N6qmhhWahkKvfkc7Tggsh+HJqonAlY7lExvZa2/BtpuxEvzpMoJyy6LfIg5Zl+7tshjDFMlojaxIcQPQBE5iaKrZlFIv98tV+x4NUx5ZfbAUimx1ezeOXmG9bxvq4OGQpeBZNlyI4VVYhVBdEmiTmcfQSOePLGYbJoKYuoW75+6nLxD1HPFgIJjx9CfmRPChh0ZwthOuKA1twBvFqoGZVV2T4Vp0d+DaQMsHZ9Jzoi5dynY5/4XHmcmXLrmdMw74cqKuBE+f2GCjxguOEVhIEXkCPImye3TRNT9gb0vC1KSunSmkfSxVIB07/pWmo6oVDKs0TL/zycyFaJaYUDr4k3SFCENbAq/+zRkyEMcKm1QAAAABJRU5ErkJggg==", reviewLink: null,estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 },
             { id: 15, name: "Gamermine", link: "https://gamermine.com/r/coinbai", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 },
             { id: 16, name: "Gain.gg", link: "https://gain.gg/r/coinbai", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 },
-            { id: 28, name: "Mistplay", link: "https://mistplay.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 }
+            { id: 28, name: "Mistplay", link: "https://mistplay.com", favicon: null, reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10 },
+            { id: 14, name: "Clickworker", link: "https://www.clickworker.com", favicon: "https://www.clickworker.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Up to 20-50$ <br> 📈 avg. 15$", average: 15 },
+
+        
         ]
     },
     {
@@ -79,15 +82,16 @@
 
 
     {
-        title: "Cryptocurrency Exchanges",
+        title: "Cryptocurrency Exchanges & GPT-sites ",
         icon: "/icons/crypto.png",
-        description: "Buy, sell, and trade cryptocurrencies.",
+        description: "Buy, sell, earn and trade cryptocurrencies!.",
         sites: [
             { name: "Coinbase", link: "https://www.coinbase.com", favicon: "https://www.coinbase.com/favicon.ico", reviewLink: null },
             { name: "Binance", link: "https://accounts.binance.com/register?ref=13732272", favicon: "https://th.bing.com/th?id=ODLS.911599c8-1878-403d-ab0f-2ed3bfd86b3f&w=32&h=32&qlt=90&pcl=fffffa&r=0&o=6&pid=1.2", reviewLink: null },
             { name: "Crypto", link: "https://crypto.com/app/nbzfay494y", favicon: "https://crypto.com/favicon.ico", reviewLink: null },
             { name: "Kraken", link: "https://www.kraken.com", favicon: "https://www.kraken.com/favicon.ico", reviewLink: null },
-            { name: "Kucoin", link: "https://www.kucoin.com/r/rf/r83B4JD", favicon: null, reviewLink: null }
+            { name: "Kucoin", link: "https://www.kucoin.com/r/rf/r83B4JD", favicon: null, reviewLink: null },
+            { name: "faucetcrypto", link: "https://faucetcrypto.com/r/4211947", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA4VBMVEURGCcADSAAABoAGCYJEiMAABVXWmGKjJAWHStqEzNfFDEIGCcAGSUAAA9BRE2dn6NrbXMoLTikqq13ACpFFS1TFS+KEDmQDzsAAAB9f4SRkpZfACc8FiwAGSOgDT4tFyosMTuys7Y6QEEGFRkkExxvDimYDjxLT1VHLopWPZsPIUIcFSGCETgADBViRLAOFyMAEABbQKMoJE92EjUkIUZkEzIAFRcAFBMUGSwbFERQOZE3JHIzKV9MN4glFymPkpIlLDBCMXg9LnBMN4ocHTovIGNBEiFUEykkDyMAHDMZExZK+700AAABxklEQVR4AW3SZ5+aMACA8WDcxq0hUIODFo4rDUEssZx76/f/QE3M7bv/2+eXHfCOkQMAQvCNfKFQLJVhpVpDX3q90Wy22p1ur4/NKqp9HNYsEdK27B94QGnVGb4bbIzGZWI1SxPi/vzlYUjl4Ndx7TEZjX3yECiPv50qDasvY+tj4nfIHxZxJZ7SJKHmUK9bsNujDgEuC+7YLELJX+ogPalNxgVQLruuS1IRuQDMhVfrV9TEORsYRVsr/Yszhc1N6qmhhWahkKvfkc7Tggsh+HJqonAlY7lExvZa2/BtpuxEvzpMoJyy6LfIg5Zl+7tshjDFMlojaxIcQPQBE5iaKrZlFIv98tV+x4NUx5ZfbAUimx1ezeOXmG9bxvq4OGQpeBZNlyI4VVYhVBdEmiTmcfQSOePLGYbJoKYuoW75+6nLxD1HPFgIJjx9CfmRPChh0ZwthOuKA1twBvFqoGZVV2T4Vp0d+DaQMsHZ9Jzoi5dynY5/4XHmcmXLrmdMw74cqKuBE+f2GCjxguOEVhIEXkCPImye3TRNT9gb0vC1KSunSmkfSxVIB07/pWmo6oVDKs0TL/zycyFaJaYUDr4k3SFCENbAq/+zRkyEMcKm1QAAAABJRU5ErkJggg==", reviewLink: null }
         ]
     },
     {
