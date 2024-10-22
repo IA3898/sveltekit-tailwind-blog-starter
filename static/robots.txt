@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /private/
+Disallow: /scripts/
+Disallow: /api/
+Disallow: /hidden/
+Disallow: /404.html
+Allow: /
+
+Sitemap: https://coinbai.com/sitemap.xml
