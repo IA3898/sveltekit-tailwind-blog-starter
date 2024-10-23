@@ -54,7 +54,7 @@ function toggleDropdown() {
 		  </svg>
 		</button>
 		{#if isDropdownOpen}
-		  <div class="absolute left-0 w-48 bg-white dark:bg-gray-800 shadow-lg rounded-md mt-2">
+		<div class="absolute left-0 w-48 bg-white dark:bg-gray-800 shadow-lg rounded-md mt-2 z-10">
 			<ul class="text-gray-900 dark:text-gray-100">
 			  <li><a href="/blog/how-to-earn-20" class="block px-4 py-2 text-sm">How to earn 20$ daily</a></li>
 			  <li><a href="/blog/best-gpt-stack" class="block px-4 py-2 text-sm"> GPT-stack to earn a monthly income</a></li>

@@ -60,7 +60,7 @@
         icon: "/icons/projects.png",
         description: "Projects/Microtasks sites.",
         sites: [
-            { id: 21, name: "CrowdGen", link: "https://crowdgen.com", favicon: null, reviewLink: null, estimatedEarnings: "Up to $10-$200 <br> 📈 avg. 20$ <br> Varies based on projects available", average: 20 },
+            { id: 21, name: "CrowdGen", link: "https://crowdgen.com", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAb1BMVEX////s6+z7+vvAv8FjX2YAAADa2drm5eY4Mj0XCh8hGCjQ0NEaDyIdEyTa29oAAAuMjIzNtuPZvfPu4/qxr7K6gOyfQuOhSOScPOO7hOujTuSlU+UxKjcQABqKh4wLABeamJzLpPArJDE/OkRnZGrve9DnAAAAr0lEQVR4Ab3RRQLCMBBA0Wkbp+7u9z8jQ7D6Dv72xQN/yDDPxCKUsmPigkp1gjdqK3WCnCrMoe4RChvNE34QPopWZlE0GgMkaZZlebhCInEeGhRlVVXZGnGiU8MxGohNe4FdD1iSlWWZnuCQFEWRBC5jzFzjJ59ixgnWjlIUjjH2lJLkGGP9ItYSbdLr2tFDswUsUdmdrnH0D/A1LrLpDU5Q0onDEpfNFqwyFsHvuwMZKg5yAuOFpwAAAABJRU5ErkJggg==", reviewLink: null, estimatedEarnings: "Up to $10-$200 <br> 📈 avg. 20$ <br> Varies based on projects available", average: 20 },
             { id: 22, name: "Swagbucks", link: "https://www.swagbucks.com/p/register?rb=151254487&rp=1", favicon: "https://www.swagbucks.com/favicon.ico", reviewLink: "https://coinbai.com/blog/swagbucks", estimatedEarnings: "💲Up to $50 per month <br> 📈 avg. 30$", average: 30 },
             { id: 23, name: "dscout", link: "https://dscout.com", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEVMaXFAQEBAQEBAQEBAQEBAQEBAQECnEBY3AAAAB3RSTlMAIKDw/zAQ2OB0JQAAAF5JREFUeAHd0cEJgDAQRNFPQAvQBhTSgJAKkinA/qsRJMouK3jPO372tAMsRV3bAaaiVzuBVcYBZBkVKDIazHKIgc/AbYhg/If4wvDkMEMYKkzZZaliJWnDyRUvPQcXE9lT28QB6/UAAAAASUVORK5CYII=", reviewLink: null, estimatedEarnings: "💲Up to $10-$100 per project  <br> 📈 avg. 50$", average: 50 },
             { id: 24, name: "OneForma", link: "https://oneforma.com", favicon: "https://play-lh.googleusercontent.com/yhkZeYpVyx2N6kyTBsJI2YSKg-XVjWpZjL5Cf9FLdsfTlfiem4TwfWB_Vj0ygPWM6w=w240-h480-rw", reviewLink: null, estimatedEarnings: "💲Up to $50-$1000 per project  <br> 📈 avg. 60$", average: 60 },
@@ -79,20 +79,30 @@
         ]
     },
 
-
-
     {
         title: "Cryptocurrency Exchanges & GPT-sites",
         icon: "/icons/crypto.png",
         description: "Buy, sell, earn and trade cryptocurrencies!.",
         sites: [
             { name: "Crypto", link: "https://crypto.com/app/nbzfay494y", favicon: "https://crypto.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲50$ if you sign up!" },
-            { name: "Binance", link: "https://accounts.binance.com/register?ref=13732272", favicon: "https://th.bing.com/th?id=ODLS.911599c8-1878-403d-ab0f-2ed3bfd86b3f&w=32&h=32&qlt=90&pcl=fffffa&r=0&o=6&pid=1.2", reviewLink: null },
-            { name: "Coinbase", link: "https://www.coinbase.com", favicon: "https://www.coinbase.com/favicon.ico", reviewLink: null },
-            { name: "Kraken", link: "https://www.kraken.com", favicon: "https://www.kraken.com/favicon.ico", reviewLink: null },
-            { name: "Kucoin", link: "https://www.kucoin.com/r/rf/r83B4JD", favicon: null, reviewLink: null },
-            { name: "faucetcrypto", link: "https://faucetcrypto.com/r/4211947", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA4VBMVEURGCcADSAAABoAGCYJEiMAABVXWmGKjJAWHStqEzNfFDEIGCcAGSUAAA9BRE2dn6NrbXMoLTikqq13ACpFFS1TFS+KEDmQDzsAAAB9f4SRkpZfACc8FiwAGSOgDT4tFyosMTuys7Y6QEEGFRkkExxvDimYDjxLT1VHLopWPZsPIUIcFSGCETgADBViRLAOFyMAEABbQKMoJE92EjUkIUZkEzIAFRcAFBMUGSwbFERQOZE3JHIzKV9MN4glFymPkpIlLDBCMXg9LnBMN4ocHTovIGNBEiFUEykkDyMAHDMZExZK+700AAABxklEQVR4AW3SZ5+aMACA8WDcxq0hUIODFo4rDUEssZx76/f/QE3M7bv/2+eXHfCOkQMAQvCNfKFQLJVhpVpDX3q90Wy22p1ur4/NKqp9HNYsEdK27B94QGnVGb4bbIzGZWI1SxPi/vzlYUjl4Ndx7TEZjX3yECiPv50qDasvY+tj4nfIHxZxJZ7SJKHmUK9bsNujDgEuC+7YLELJX+ogPalNxgVQLruuS1IRuQDMhVfrV9TEORsYRVsr/Yszhc1N6qmhhWahkKvfkc7Tggsh+HJqonAlY7lExvZa2/BtpuxEvzpMoJyy6LfIg5Zl+7tshjDFMlojaxIcQPQBE5iaKrZlFIv98tV+x4NUx5ZfbAUimx1ezeOXmG9bxvq4OGQpeBZNlyI4VVYhVBdEmiTmcfQSOePLGYbJoKYuoW75+6nLxD1HPFgIJjx9CfmRPChh0ZwthOuKA1twBvFqoGZVV2T4Vp0d+DaQMsHZ9Jzoi5dynY5/4XHmcmXLrmdMw74cqKuBE+f2GCjxguOEVhIEXkCPImye3TRNT9gb0vC1KSunSmkfSxVIB07/pWmo6oVDKs0TL/zycyFaJaYUDr4k3SFCENbAq/+zRkyEMcKm1QAAAABJRU5ErkJggg==", reviewLink: null }
+            { name: "Binance", link: "https://accounts.binance.com/register?ref=13732272", favicon: "https://th.bing.com/th?id=ODLS.911599c8-1878-403d-ab0f-2ed3bfd86b3f&w=32&h=32&qlt=90&pcl=fffffa&r=0&o=6&pid=1.2", reviewLink: null, estimatedEarnings: "💲Occasional rewards and airdrops!" },
+            { name: "Coinbase", link: "https://www.coinbase.com", favicon: "https://www.coinbase.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲10$ if you sign up!" },
+            { name: "Kraken", link: "https://www.kraken.com", favicon: "https://www.kraken.com/favicon.ico", reviewLink: null, estimatedEarnings: "💲Occasional rewards" },
+            { name: "Kucoin", link: "https://www.kucoin.com/r/rf/r83B4JD", favicon: null, reviewLink: null, estimatedEarnings: "💲Occasional rewards and airdrops!" },
+            { name: "faucetcrypto", link: "https://faucetcrypto.com/r/4211947", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA4VBMVEURGCcADSAAABoAGCYJEiMAABVXWmGKjJAWHStqEzNfFDEIGCcAGSUAAA9BRE2dn6NrbXMoLTikqq13ACpFFS1TFS+KEDmQDzsAAAB9f4SRkpZfACc8FiwAGSOgDT4tFyosMTuys7Y6QEEGFRkkExxvDimYDjxLT1VHLopWPZsPIUIcFSGCETgADBViRLAOFyMAEABbQKMoJE92EjUkIUZkEzIAFRcAFBMUGSwbFERQOZE3JHIzKV9MN4glFymPkpIlLDBCMXg9LnBMN4ocHTovIGNBEiFUEykkDyMAHDMZExZK+700AAABxklEQVR4AW3SZ5+aMACA8WDcxq0hUIODFo4rDUEssZx76/f/QE3M7bv/2+eXHfCOkQMAQvCNfKFQLJVhpVpDX3q90Wy22p1ur4/NKqp9HNYsEdK27B94QGnVGb4bbIzGZWI1SxPi/vzlYUjl4Ndx7TEZjX3yECiPv50qDasvY+tj4nfIHxZxJZ7SJKHmUK9bsNujDgEuC+7YLELJX+ogPalNxgVQLruuS1IRuQDMhVfrV9TEORsYRVsr/Yszhc1N6qmhhWahkKvfkc7Tggsh+HJqonAlY7lExvZa2/BtpuxEvzpMoJyy6LfIg5Zl+7tshjDFMlojaxIcQPQBE5iaKrZlFIv98tV+x4NUx5ZfbAUimx1ezeOXmG9bxvq4OGQpeBZNlyI4VVYhVBdEmiTmcfQSOePLGYbJoKYuoW75+6nLxD1HPFgIJjx9CfmRPChh0ZwthOuKA1twBvFqoGZVV2T4Vp0d+DaQMsHZ9Jzoi5dynY5/4XHmcmXLrmdMw74cqKuBE+f2GCjxguOEVhIEXkCPImye3TRNT9gb0vC1KSunSmkfSxVIB07/pWmo6oVDKs0TL/zycyFaJaYUDr4k3SFCENbAq/+zRkyEMcKm1QAAAABJRU5ErkJggg==", reviewLink: null, estimatedEarnings: "💲Up to $25 <br> 📈 avg. 10$", average: 10  },
         ]
+    },
+
+    {
+        title: "Passive Income",
+        icon: "/icons/passive-income.png",
+        description: "Generate consistent income over time with little day-to-day involvement.",
+        sites: [
+            { name: "HoneyGain", link: "https://r.honeygain.me/COINB44B36", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFLUlEQVR4Ae2WA5ScSxSEJ7ZtJ2sztncHb2Pbtm3btm3btm0bg3rVnf43ttHnfOPuW5c9uu+x/q24nkYNR9KJ1CYxyA8VEJksJiBW0kAT9qO89yfXCBR9fqSAxGS98vwi2UC81HcJSGvSjTh/D+MhSBcCMpWkJHGJD2lE1hAbgRD2PQSkIecUDsSejCd3CTTjipNv5i2yCpWJFCGFFUHE8AkEqNCCzCeFyFFldDdpRiqo9Owi5TTDIUnOOB7GJbHc9LdjugVaiFVDvTe/izgeBjP3SmJ7mMwx3U1Wgphupsd8/1CJWUASveJodBKLhNQ+KMqDriXyK4SACs3RosdIdBgwAa17jyGj3w2/a9lzFNKbaoJ7QWPIps+O5o2c0bShC8pV9IFv3lyI52UU34luaK4i/FbePHjAiVRZSmD4lIW4//ARPmU9e/5c/j5d9tKI5W5ElsDs2Dc7Kiw7dDBv1+HJ1hA4szQCBnZODbeceYUIEaXeJAJ5TcBg4UGH/uNhtVo/yfjd+w/Rps9YJPYrTOMGpMtcACvGxg02fn9jSFxeGRaPt4SEdacOGyfHQoYCOYWIp7RX9bV5QONHhBf7jpz6JOMXr9xA5Wa9EMfTBO4lJrRt5ohn20JI48cWRkL9+lmQK6gAqlX3xOklEWGjiGVj4iFNpgJgnR2m8RTBAmK76695BVTBpas3Pmr84PEz0FdqKb32zpMbiX31cM+VB0fmR4GZ3j/dqkPTRl4YN3s1a2gyorsa0aqJE55T2FOmpF4dd+41iY6oHhyF2B6GoyIC+49+OAJrt+5FxqDaoGBUruqFod1SIYG3AdXppTj8+TYdHmwKiSJlMqJ43W4IrNicAkwoXcGXqQgBq4pCEr9ARk8OqFBE1sAwEcqOAyewBmxvGTZbLJi2cA2c85Snej3q13XD7fWh0a9jWoh2G0YhVnr/jAKEp0O6pkJ8rwBEczFKY2N7J5epEZxYFAmuLwpyK+1G1QR4UcCp1OyCUdMW4+GjJ9DWnXsP0HvkDCTPWJx9bUCKDAHYMjUmsEsn886DMGNwYnqnBJB7G0Nh2sAkaN3UCbOGJJJRea7EXVgeHr75cok07FNzQAoQlKSIG6KqjVVaoW3fsWjZaxTylmnKcAXBOXseOGXLxyIqiL2zo0kBXVrbi4Mwrk+yYAGaCNkNxELU5zICRxdE5ln5hPBN2kx4dRLmpYgVnIQPOOEgSJUhH0qV95VtVL6Sjyy69ZNiA7t1mNw/qYxAMw4dekcjH0aInDssIRL56EUNjFWX1lt3eAw1wxGHVKrijSurwkmDHVs6SI9H9kgpI3BgblTYZ80v+/vcsggwf0CEVqAVKvvwDDmQShHduwRkIzcJBPRYer5rZnQsHhlfqGdE/PCQh4nKrl7DU4rq1T7dB6MgUjGJEUvmHyjmwDaeHY+8dY1GJYsIFM/IVaHYkfmnEDnxUmcsKFOCPTrsnBEDTsypiMSqcXFfzbkUxPdyJM8cnEjLvbiS/3uf91XJY3KSjCZBxIE04cZjsXnLCWEi7/qimaRHm6fERLNGLsIrmQq+l5F5tDkkbqwNg63TYqBxfVekomjue8D99Unod3kfjTQlJUlSbUgoQpBkpDpZQq7wMIu45VKyLR3ofXwvgxTmwalYoqwfipX1Ry5TVnaNNGyjwKMq72HedRsKQmrKyIf+aEZQUSlGuvLg2TQgcnqcXOLrm/wfcIfcZuou8Pv16hpOrfZ/83++oUlUkpCkIc7Eg7iTVFqvC37Z9W/9W/8D99+Y9dPIMGkAAAAASUVORK5CYII=", reviewLink: null, estimatedEarnings: "💲Up to $10-$40 per month  <br> 📈 avg. 15$" },
+            { name: "Cointiply", link: "http://cointiply.com/r/jEDn5J", favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAnFBMVEUhJj0dJj0RJzwAJzscJjwAJzo3JUB/H0usGlO6GFaQHU5LI0NeIkXNFVr5DWP0DmLzDmLfEl7vD2HWE1zvAF7vAFxWIkTyWYj0dZzuAFVBJEHuAFD5rsX7xdfwJWv95O7wMXHuAFj6t8z81+X4o732ja30bpaYHE/zZZD+5/D+7PT80uHxR30tJT/4pr93IEn+5vCnGlJmIUduIEj5DSP0AAABYklEQVR4AY3SVXbDMBAF0IhMbUSxQgaFE9kN739vzUg+LsP7veeNcPDPIEwewfQboiyKkzRNsieGP7fY85ALIaUUXMXsQ5uSlEvdRfJRhN/ZQAkNyU1gOe4VESWDTaZmloOKOe2QpaE3K8qqtguvinRDnznQcrXerLc7O9MQsQ/KhtLPPFTONq59CaoxGDpCEaoHZ6cr15y88jMojkWHJ1cVxfTSTPyqKcwl1w5nrdsWxeTiDh5HDDDtzlE769qVte1SQ9R7NLuLPWysXdf5O0yEt2LjqmJpWrue6X4szgTYtFxftoUpTrbJdb8hOoejLMuLs+ty+5jb+qaI/UHZSILOtrZyTePcJPc4QID4zLXvVnmz2+1q4y2Bqf39me102hQGCBKKcIHaq9EveUf81j8ofgJ9pLc4DA0aKa77CH0jHz9RprmQUkspRII+/z9M7slQqVEaI4I+UmgTxhjBPf2eVznfKajRIucjAAAAAElFTkSuQmCC", reviewLink: null, estimatedEarnings: "💲Up to $10-$40 per month  <br> 📈 avg. 15$" },
+        ]
+
+
     },
     {
         title: "Subreddits",
@@ -188,9 +198,23 @@ import { onMount } from 'svelte';
             unsubscribe(); // Clean up the subscription when the component is destroyed
         };
     });
+
+    export let message = "Do you want to earn 50$ just by completing a few tasks? Sign up for Crypto.com!";
+  export let link = "https://crypto.com/app/nbzfay494y";
 </script>
 
-<div class="max-w-7xl mx-auto py-10 px-4">
+<div class="max-w-7xl mx-auto py-5 px-0">
+  <header class="bg-blue-500 shadow-sm h-12 rounded-sm py-2 px-10 mb-0 text-center max-w flex items-center justify-between space-x-1 border-0 ml-auto mr-auto mt-0 contrast-125 -translate-y-5 border-blue-700 rounded-b-xl shadow-sky-700">
+    <h1 class="text-white font-semibold text-sm flex-auto">
+      <a href={link} style="text-decoration: none; color: white;" class="hover:underline mt-2  color: white inline-flex items-center" target="_blank" rel="noopener noreferrer"> <!-- Wrap the content in an anchor tag -->
+        <img src="https://play-lh.googleusercontent.com/yt0LJ1Bmzlkph4yUIdRe3t5DtHAH8QweHQmo6gh3PoywJtGD0eyTokCTP9-iOk4UmQ" alt="Icon" class="rounded-full w-7 h-8 mr-2"> 💸
+        {message} 💸
+        <img src="https://play-lh.googleusercontent.com/yt0LJ1Bmzlkph4yUIdRe3t5DtHAH8QweHQmo6gh3PoywJtGD0eyTokCTP9-iOk4UmQ" alt="Icon" class="rounded-full w-7 h-8 ml-2">
+      </a>
+    </h1>
+  </header>
+
+
     <!-- Heading -->
     <h1 class="text-4xl font-bold text-center mb-8 dark:text-gray-200">Beermoney Sites</h1>
     <div class="flex justify-center items-center mb-8">
@@ -368,6 +392,17 @@ import { onMount } from 'svelte';
     h1, h2 {
         color: #2D3748;
     }
+
+    header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: blue;
+    text-decoration: none;
+  }
 </style>
 
 <!-- Tailwind CSS for styling, modify as needed -->
