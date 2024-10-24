@@ -14,7 +14,7 @@ author: Coinbai
 
 As a long-time gamer and rewards platform enthusiast, I've spent countless hours exploring different ways to earn while gaming. Today, I'm excited to share my in-depth review of Gamermine, a platform that's been making waves in the play-to-earn space. Whether you're a casual gamer or hardcore enthusiast, [this gaming rewards platform](https://gamermine.com/r/coinbai) might be exactly what you've been looking for.
 
-![Gamermine Platform Overview](/img/gamermine.png)
+![Gamermine Platform Overview](/img/Gamermine.png)
 
 ## The Gaming Revolution: What Is Gamermine?
 
