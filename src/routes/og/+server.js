@@ -19,7 +19,7 @@ export const GET = async ({ url }) => {
 
 	const svg = await satori(element, {
 		fonts: [
-			{ name: 'Saira', data: Buffer.from(Saira), style: 'bold' },
+			{ name: 'Inter', data: Buffer.from(Saira), style: 'bold' },
 			{ name: 'Open Sans', data: Buffer.from(OpenSans), style: 'bold' }
 		],
 		height,

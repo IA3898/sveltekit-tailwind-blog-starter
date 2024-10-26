@@ -9,7 +9,7 @@
 
 <div class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
 	<article>
-		<div class="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
+		<div class="xl:divide-y xl:divide-gray-100 xl:dark:divide-gray-700">
 			<header class="pt-6 xl:pb-6">
 				{#if post.image}
 					<div class=" w-full pb-6">

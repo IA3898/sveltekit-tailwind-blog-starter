@@ -4,7 +4,7 @@ export const config = {
 	headerTitle: 'Coinbai',
 	description: 'Coinbai is your go-to source for beermoney guides, moneymaking and financial insights.',
 	language: 'en-us',
-	theme: 'dark', // system, dark or light
+	theme: 'light', // system, dark or light
 	domain: 'http://www.coinbai.com/', // Replace with Coinbai's actual domain
 	siteUrl: 'https://www.coinbai.com/', // Replace with Coinbai's actual site URL
 //	siteRepo: 'https://github.com/coinbai/sveltekit-tailwind-blog-starter', // Replace with Coinbai's actual repository URL
@@ -12,7 +12,7 @@ export const config = {
 	email: '', // Replace with Coinbai's contact email
 	instagram: 'https://instagram.com/coinbai1', // Replace with Coinbai's GitHub, if available
 	twitter: 'https://twitter.com/Coinbai_com',
-	facebook: '', // Remove if Coinbai doesn't have a, Facebook page
+	facebook: 'https://www.facebook.com/groups/1597904141105116', // Remove if Coinbai doesn't have a, Facebook page
 	youtube: '', // Add Coinbai's YouTube link if available
 	linkedin: '', // Add Coinbai's LinkedIn link if available
 	locale: 'en-US',

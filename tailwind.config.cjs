@@ -16,7 +16,7 @@ module.exports = {
 				14: '3.5rem',
 			},
 			fontFamily: {
-				title: ['Saira', ...defaultTheme.fontFamily.sans],
+				title: ['Inter', ...defaultTheme.fontFamily.sans],
 				body: ['Open Sans', ...defaultTheme.fontFamily.sans],
 			},
 			colors: {
@@ -36,17 +36,17 @@ module.exports = {
 							code: { color: theme('colors.primary.400') },
 						},
 						h1: {
-							fontFamily: 'Saira',
+							fontFamily: 'Inter',
 							fontWeight: '800',
 							color: theme('colors.green.900'),
 						},
 						h2: {
-							fontFamily: 'Saira',
+							fontFamily: 'Inter',
 							fontWeight: '800',
 							color: theme('colors.gray.900'),
 						},
 						h3: {
-							fontFamily: 'Saira',
+							fontFamily: 'Inter',
 							fontWeight: '800',
 							color: theme('colors.gray.900'),
 						},

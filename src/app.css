@@ -50,7 +50,7 @@
     --staff-pick-bg: #e74c3c;
     --staff-pick-text: #ffffff;
     --rating-color: #f1c40f;
-    --btn-bg: #2ecc71;
+    --btn-bg: #cc8a2e;
     --btn-text: #ffffff;
     --link-color: #3498db;
     --link-color1: #e58626;
@@ -61,10 +61,10 @@
 .dark {
     --bg-color: #121212;
     --text-primary: #ffffff;
-    --text-secondary: #bbbbbb;
+    --text-secondary: #fcfcfc;
     --text-muted: #999999;
     --card-bg: #1e1e1e;
-    --verified-bg: #27ae60;
+    --verified-bg: #ae8527;
     --verified-text: #ffffff;
     --staff-pick-bg: #c0392b;
     --staff-pick-text: #ffffff;
@@ -84,7 +84,7 @@ body {
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Inter, sans-serif;
     color: var(--text-primary);
 }
 
