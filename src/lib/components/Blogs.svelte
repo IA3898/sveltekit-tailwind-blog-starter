@@ -77,6 +77,7 @@
   
 				<div class="space-y-5 xl:col-span-3 self-start">
 					
+					
 				  <div class="space-y-6">
 					<div>
 					  <h2 class="text-2xl font-bold leading-8 tracking-tight">
